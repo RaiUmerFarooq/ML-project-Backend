@@ -1,9 +1,14 @@
 from rest_framework import serializers
-from .models import Student, Attendance, Marks
+from .models import Student, Attendance, Marks, Course
 
 class StudentSerializer(serializers.ModelSerializer):
     class Meta:
         model = Student
+        fields = '__all__'
+
+class CourseSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Course
         fields = '__all__'
 
 class AttendanceSerializer(serializers.ModelSerializer):
@@ -14,4 +19,4 @@ class AttendanceSerializer(serializers.ModelSerializer):
 class MarksSerializer(serializers.ModelSerializer):
     class Meta:
         model = Marks
-        fields = '__all__'
+        fields = ['id', 'student', 'course', 'assessment_type', 'assessment_number', 'marks', 'max_marks', 'date']

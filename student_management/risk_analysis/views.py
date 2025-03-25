@@ -19,7 +19,7 @@ class StudentRiskAnalysis(APIView):
             present_days = attendance_records.filter(is_present=True).count()
             attendance_percentage = (present_days / total_days * 100) if total_days > 0 else 0
             
-            # Calculate average marks
+            # Calculate average marks (across all assessments)
             avg_marks = Marks.objects.filter(student=student).aggregate(Avg('marks'))['marks__avg'] or 0
             
             # Prepare data for Hugging Face API
@@ -32,7 +32,7 @@ class StudentRiskAnalysis(APIView):
             
             # Hugging Face API configuration
             HF_API_URL = "https://api-inference.huggingface.co/models/your-username/your-model-name"
-            HF_API_TOKEN = "your_hugging_face_api_token"  # Get this from Hugging Face
+            HF_API_TOKEN = "your_hugging_face_api_token"
             
             headers = {
                 "Authorization": f"Bearer {HF_API_TOKEN}",
@@ -44,8 +44,6 @@ class StudentRiskAnalysis(APIView):
             
             if response.status_code == 200:
                 risk_prediction = response.json()
-                
-                # Assuming your HF model returns something like {"risk_level": "low", "confidence": 0.92}
                 risk_level = risk_prediction.get('risk_level', 'unknown')
                 confidence = risk_prediction.get('confidence', 0.0)
                 
