@@ -1,5 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import AbstractUser
+from django.db.models.signals import post_save
+from django.dispatch import receiver
 
 class User(AbstractUser):
     ROLE_CHOICES = (
@@ -28,13 +30,13 @@ class Course(models.Model):
 
 class Attendance(models.Model):
     student = models.ForeignKey(Student, on_delete=models.CASCADE)
-    subject = models.ForeignKey(Course, on_delete=models.CASCADE)  # New field
+    subject = models.ForeignKey(Course, on_delete=models.CASCADE)
     date = models.DateField()
     is_present = models.BooleanField(default=True)
     checkin_time = models.TimeField(auto_now_add=True)
     
     class Meta:
-        unique_together = ('student', 'subject', 'date')  # Updated constraint
+        unique_together = ('student', 'subject', 'date')
     
     def __str__(self):
         return f"{self.student.name} - {self.subject.name} - {self.date} - {self.checkin_time}"
@@ -59,3 +61,16 @@ class Marks(models.Model):
     
     def __str__(self):
         return f"{self.student.name} - {self.course.name} - {self.assessment_type} {self.assessment_number} - {self.marks}"
+
+# Signal to create a Student object when a User with role='student' is created
+@receiver(post_save, sender=User)
+def create_student_profile(sender, instance, created, **kwargs):
+    if created and instance.role == 'student':
+        # Generate a unique roll_number (e.g., S001, S002, etc.)
+        existing_students = Student.objects.count()
+        roll_number = f"S{str(existing_students + 1).zfill(3)}"  # e.g., S001, S002
+        Student.objects.create(
+            user=instance,
+            name=instance.username,  # Use username as the default name
+            roll_number=roll_number
+        )

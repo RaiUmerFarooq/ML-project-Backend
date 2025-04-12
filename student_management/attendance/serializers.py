@@ -8,11 +8,11 @@ class UserSerializer(serializers.ModelSerializer):
         fields = ['id', 'username', 'role']
 
 class StudentSerializer(serializers.ModelSerializer):
-    user = UserSerializer(read_only=True)
+    id = serializers.IntegerField(source='user_id', read_only=True)  # Map user_id to id
     
     class Meta:
         model = Student
-        fields = ['user', 'name', 'roll_number']
+        fields = ['id', 'name', 'roll_number']
 
 class CourseSerializer(serializers.ModelSerializer):
     class Meta:
@@ -20,26 +20,24 @@ class CourseSerializer(serializers.ModelSerializer):
         fields = ['id', 'name', 'code']
 
 class AttendanceSerializer(serializers.ModelSerializer):
-    student_id = serializers.CharField(write_only=True)  # Accept username or user_id
-    subject_id = serializers.IntegerField(write_only=True)  # Accept course ID
-    subject = CourseSerializer(read_only=True)  # Include course details in response
+    student_id = serializers.CharField(write_only=True)
+    subject_id = serializers.IntegerField(write_only=True)
+    student = StudentSerializer(read_only=True)
+    subject = CourseSerializer(read_only=True)
     
     class Meta:
         model = Attendance
-        fields = ['id', 'student_id', 'subject_id', 'subject', 'date', 'is_present', 'checkin_time']
-        read_only_fields = ['id', 'checkin_time', 'subject']
+        fields = ['id', 'student_id', 'student', 'subject_id', 'subject', 'date', 'is_present', 'checkin_time']
+        read_only_fields = ['id', 'checkin_time', 'student', 'subject']
 
     def validate_student_id(self, value):
         try:
-            # Try to find user by username or ID
             try:
                 user = User.objects.get(username=value)
             except ValueError:
                 user = User.objects.get(id=int(value))
-            # Ensure user is a student
             if user.role != 'student':
                 raise serializers.ValidationError("User is not a student")
-            # Ensure student profile exists
             if not Student.objects.filter(user=user).exists():
                 raise serializers.ValidationError("Student profile not found")
             return user
@@ -59,14 +57,15 @@ class AttendanceSerializer(serializers.ModelSerializer):
         return Attendance.objects.create(student=student, subject=subject, **validated_data)
 
 class MarksSerializer(serializers.ModelSerializer):
-    student_id = serializers.CharField(write_only=True)  # Accept username or user_id
-    course_id = serializers.IntegerField(write_only=True)  # Accept course ID
-    course = CourseSerializer(read_only=True)  # Include course details in response
+    student_id = serializers.CharField(write_only=True)
+    course_id = serializers.IntegerField(write_only=True)
+    student = StudentSerializer(read_only=True)
+    course = CourseSerializer(read_only=True)
     
     class Meta:
         model = Marks
-        fields = ['id', 'student_id', 'course_id', 'course', 'assessment_type', 'assessment_number', 'marks', 'max_marks', 'date']
-        read_only_fields = ['id', 'course']
+        fields = ['id', 'student_id', 'student', 'course_id', 'course', 'assessment_type', 'assessment_number', 'marks', 'max_marks', 'date']
+        read_only_fields = ['id', 'student', 'course']
 
     def validate_student_id(self, value):
         try:
