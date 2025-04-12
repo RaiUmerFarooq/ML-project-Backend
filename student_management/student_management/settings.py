@@ -15,7 +15,6 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
@@ -27,7 +26,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -37,9 +35,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',      # Added Django REST Framework
+    'rest_framework',              # Django REST Framework
+    'rest_framework.authtoken',    # Added for token authentication
     'attendance',   
-     'risk_analysis',             # Added our attendance app
+    'risk_analysis',               # Our apps
 ]
 
 MIDDLEWARE = [
@@ -72,21 +71,19 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'student_management.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',    # Changed to MySQL
-        'NAME': 'ML-Project',                    # Database name as requested
-        'USER': 'mlproject',                 # Replace with your MySQL username
-        'PASSWORD': '1234',             # Replace with your MySQL password
-        'HOST': 'localhost',                     # Database host
-        'PORT': '3306',                          # Default MySQL port
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'ML-Project',
+        'USER': 'mlproject',
+        'PASSWORD': '1234',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
@@ -106,7 +103,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
@@ -117,7 +113,6 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
@@ -132,10 +127,13 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # REST Framework settings
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.AllowAny',    # Allows unrestricted access
+        'rest_framework.permissions.IsAuthenticated',  # Require authentication by default
     ],
     'DEFAULT_AUTHENTICATION_CLASSES': [
-        'rest_framework.authentication.SessionAuthentication',
-        'rest_framework.authentication.BasicAuthentication'
+        'rest_framework.authentication.TokenAuthentication',  # Use token-based auth
+        'rest_framework.authentication.SessionAuthentication',  # Keep session auth for admin
     ]
 }
+
+# Custom User Model
+AUTH_USER_MODEL = 'attendance.User'

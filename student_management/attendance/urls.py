@@ -1,5 +1,5 @@
 from django.urls import path
-from . import views
+from . import views, views_auth
 
 urlpatterns = [
     path('students/', views.StudentListCreate.as_view(), name='student-list'),
@@ -10,4 +10,8 @@ urlpatterns = [
     path('attendance/<int:pk>/', views.AttendanceRetrieveUpdateDestroy.as_view(), name='attendance-detail'),
     path('marks/', views.MarksListCreate.as_view(), name='marks-list'),
     path('marks/<int:pk>/', views.MarksRetrieveUpdateDestroy.as_view(), name='marks-detail'),
+    path('my-attendance/', views.StudentOwnAttendanceView.as_view(), name='my-attendance'),
+    path('my-marks/', views.StudentOwnMarksView.as_view(), name='my-marks'),
+    path('login/', views_auth.LoginView.as_view(), name='login'),
+    path('logout/', views_auth.LogoutView.as_view(), name='logout'),
 ]

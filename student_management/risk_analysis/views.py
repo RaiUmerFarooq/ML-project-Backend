@@ -2,16 +2,24 @@ import requests
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
+from rest_framework.permissions import IsAuthenticated
 from attendance.models import Student, Attendance, Marks
 from django.db.models import Avg, Count
 from .models import StudentRisk
 from django.utils import timezone
 
 class StudentRiskAnalysis(APIView):
+    permission_classes = [IsAuthenticated]
+
     def get(self, request, student_id):
         try:
-            # Get student data
-            student = Student.objects.get(id=student_id)
+            # Restrict students to their own data
+            if request.user.role == 'student':
+                student = Student.objects.get(user=request.user)
+                if student.user.id != int(student_id):
+                    return Response({'error': 'Unauthorized access'}, status=status.HTTP_403_FORBIDDEN)
+            else:
+                student = Student.objects.get(user__id=student_id)
             
             # Calculate attendance percentage
             attendance_records = Attendance.objects.filter(student=student)
@@ -19,7 +27,7 @@ class StudentRiskAnalysis(APIView):
             present_days = attendance_records.filter(is_present=True).count()
             attendance_percentage = (present_days / total_days * 100) if total_days > 0 else 0
             
-            # Calculate average marks (across all assessments)
+            # Calculate average marks
             avg_marks = Marks.objects.filter(student=student).aggregate(Avg('marks'))['marks__avg'] or 0
             
             # Prepare data for Hugging Face API
@@ -58,7 +66,7 @@ class StudentRiskAnalysis(APIView):
                 )
                 
                 return Response({
-                    "student_id": student_id,
+                    "student_id": student.user.id,
                     "name": student.name,
                     "attendance_percentage": attendance_percentage,
                     "average_marks": avg_marks,

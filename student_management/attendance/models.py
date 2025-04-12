@@ -1,6 +1,18 @@
 from django.db import models
+from django.contrib.auth.models import AbstractUser
+
+class User(AbstractUser):
+    ROLE_CHOICES = (
+        ('student', 'Student'),
+        ('teacher', 'Teacher'),
+    )
+    role = models.CharField(max_length=20, choices=ROLE_CHOICES, default='student')
+
+    def __str__(self):
+        return self.username
 
 class Student(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE, primary_key=True)
     name = models.CharField(max_length=100)
     roll_number = models.CharField(max_length=20, unique=True)
     
@@ -18,12 +30,13 @@ class Attendance(models.Model):
     student = models.ForeignKey(Student, on_delete=models.CASCADE)
     date = models.DateField()
     is_present = models.BooleanField(default=True)
+    checkin_time = models.TimeField(auto_now_add=True)  # New field for check-in time
     
     class Meta:
         unique_together = ('student', 'date')
     
     def __str__(self):
-        return f"{self.student.name} - {self.date}"
+        return f"{self.student.name} - {self.date} - {self.checkin_time}"
 
 class Marks(models.Model):
     ASSESSMENT_TYPES = (
@@ -34,8 +47,8 @@ class Marks(models.Model):
     
     student = models.ForeignKey(Student, on_delete=models.CASCADE)
     course = models.ForeignKey(Course, on_delete=models.CASCADE)
-    assessment_type = models.CharField(max_length=20, choices=ASSESSMENT_TYPES, default='quiz')  # Default to 'quiz'
-    assessment_number = models.IntegerField(default=1)  # Default to 1st quiz/assignment
+    assessment_type = models.CharField(max_length=20, choices=ASSESSMENT_TYPES, default='quiz')
+    assessment_number = models.IntegerField(default=1)
     marks = models.FloatField()
     max_marks = models.FloatField(default=100)
     date = models.DateField()
