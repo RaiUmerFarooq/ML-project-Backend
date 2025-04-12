@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import StudentRiskAnalysis
+from . import views
 
 urlpatterns = [
-    path('student/<int:student_id>/risk/', StudentRiskAnalysis.as_view(), name='student-risk-analysis'),
+    path('student/<int:student_id>/risk/', views.StudentRiskAnalysis.as_view(), name='student-risk'),
 ]
