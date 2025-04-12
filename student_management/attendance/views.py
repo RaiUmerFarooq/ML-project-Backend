@@ -29,7 +29,7 @@ class CourseRetrieveUpdateDestroy(generics.RetrieveUpdateDestroyAPIView):
 class AttendanceListCreate(generics.ListCreateAPIView):
     queryset = Attendance.objects.all()
     serializer_class = AttendanceSerializer
-    permission_classes = [IsTeacher]  # Only teachers can create
+    permission_classes = [IsTeacher]
 
 class AttendanceRetrieveUpdateDestroy(generics.RetrieveUpdateDestroyAPIView):
     queryset = Attendance.objects.all()
@@ -39,7 +39,7 @@ class AttendanceRetrieveUpdateDestroy(generics.RetrieveUpdateDestroyAPIView):
 class MarksListCreate(generics.ListCreateAPIView):
     queryset = Marks.objects.all()
     serializer_class = MarksSerializer
-    permission_classes = [IsTeacher]  # Only teachers can create
+    permission_classes = [IsTeacher]
 
 class MarksRetrieveUpdateDestroy(generics.RetrieveUpdateDestroyAPIView):
     queryset = Marks.objects.all()
@@ -48,7 +48,6 @@ class MarksRetrieveUpdateDestroy(generics.RetrieveUpdateDestroyAPIView):
 
 class StudentOwnAttendanceView(APIView):
     permission_classes = [IsAuthenticated]
-
     def get(self, request):
         try:
             student = Student.objects.get(user=request.user)
@@ -60,7 +59,6 @@ class StudentOwnAttendanceView(APIView):
 
 class StudentOwnMarksView(APIView):
     permission_classes = [IsAuthenticated]
-
     def get(self, request):
         try:
             student = Student.objects.get(user=request.user)
