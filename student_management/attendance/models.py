@@ -28,15 +28,16 @@ class Course(models.Model):
 
 class Attendance(models.Model):
     student = models.ForeignKey(Student, on_delete=models.CASCADE)
+    subject = models.ForeignKey(Course, on_delete=models.CASCADE)  # New field
     date = models.DateField()
     is_present = models.BooleanField(default=True)
-    checkin_time = models.TimeField(auto_now_add=True)  # New field for check-in time
+    checkin_time = models.TimeField(auto_now_add=True)
     
     class Meta:
-        unique_together = ('student', 'date')
+        unique_together = ('student', 'subject', 'date')  # Updated constraint
     
     def __str__(self):
-        return f"{self.student.name} - {self.date} - {self.checkin_time}"
+        return f"{self.student.name} - {self.subject.name} - {self.date} - {self.checkin_time}"
 
 class Marks(models.Model):
     ASSESSMENT_TYPES = (

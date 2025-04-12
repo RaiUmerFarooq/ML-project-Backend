@@ -21,11 +21,13 @@ class CourseSerializer(serializers.ModelSerializer):
 
 class AttendanceSerializer(serializers.ModelSerializer):
     student_id = serializers.CharField(write_only=True)  # Accept username or user_id
+    subject_id = serializers.IntegerField(write_only=True)  # Accept course ID
+    subject = CourseSerializer(read_only=True)  # Include course details in response
     
     class Meta:
         model = Attendance
-        fields = ['id', 'student_id', 'date', 'is_present']
-        read_only_fields = ['id']
+        fields = ['id', 'student_id', 'subject_id', 'subject', 'date', 'is_present', 'checkin_time']
+        read_only_fields = ['id', 'checkin_time', 'subject']
 
     def validate_student_id(self, value):
         try:
@@ -44,19 +46,27 @@ class AttendanceSerializer(serializers.ModelSerializer):
         except ObjectDoesNotExist:
             raise serializers.ValidationError("User not found")
 
+    def validate_subject_id(self, value):
+        if not Course.objects.filter(id=value).exists():
+            raise serializers.ValidationError("Course not found")
+        return value
+
     def create(self, validated_data):
         user = validated_data.pop('student_id')
+        subject_id = validated_data.pop('subject_id')
         student = Student.objects.get(user=user)
-        return Attendance.objects.create(student=student, **validated_data)
+        subject = Course.objects.get(id=subject_id)
+        return Attendance.objects.create(student=student, subject=subject, **validated_data)
 
 class MarksSerializer(serializers.ModelSerializer):
     student_id = serializers.CharField(write_only=True)  # Accept username or user_id
-    course_id = serializers.IntegerField()
-
+    course_id = serializers.IntegerField(write_only=True)  # Accept course ID
+    course = CourseSerializer(read_only=True)  # Include course details in response
+    
     class Meta:
         model = Marks
-        fields = ['id', 'student_id', 'course_id', 'assessment_type', 'assessment_number', 'marks', 'max_marks', 'date']
-        read_only_fields = ['id']
+        fields = ['id', 'student_id', 'course_id', 'course', 'assessment_type', 'assessment_number', 'marks', 'max_marks', 'date']
+        read_only_fields = ['id', 'course']
 
     def validate_student_id(self, value):
         try:
@@ -84,7 +94,7 @@ class MarksSerializer(serializers.ModelSerializer):
 
     def create(self, validated_data):
         user = validated_data.pop('student_id')
-        student = Student.objects.get(user=user)
         course_id = validated_data.pop('course_id')
+        student = Student.objects.get(user=user)
         course = Course.objects.get(id=course_id)
         return Marks.objects.create(student=student, course=course, **validated_data)

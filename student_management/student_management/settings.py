@@ -36,13 +36,15 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',              # Django REST Framework
-    'rest_framework.authtoken',    # Added for token authentication
-    'attendance',   
-    'risk_analysis',               # Our apps
+    'rest_framework.authtoken',    # Token authentication
+    'attendance',
+    'risk_analysis',
+    'corsheaders',                 # CORS headers
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'corsheaders.middleware.CorsMiddleware',  # Added for CORS
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -50,6 +52,14 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+# CORS settings
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:5173',  # Vite frontend
+]
+
+# Allow credentials (optional, for cookies or session auth)
+CORS_ALLOW_CREDENTIALS = True
 
 ROOT_URLCONF = 'student_management.urls'
 
@@ -127,11 +137,11 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # REST Framework settings
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.IsAuthenticated',  # Require authentication by default
+        'rest_framework.permissions.IsAuthenticated',
     ],
     'DEFAULT_AUTHENTICATION_CLASSES': [
-        'rest_framework.authentication.TokenAuthentication',  # Use token-based auth
-        'rest_framework.authentication.SessionAuthentication',  # Keep session auth for admin
+        'rest_framework.authentication.TokenAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
     ]
 }
 
