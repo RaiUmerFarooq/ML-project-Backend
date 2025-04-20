@@ -4,6 +4,7 @@ from . import views, views_auth
 urlpatterns = [
     path('students/', views.StudentListCreate.as_view(), name='student-list'),
     path('students/<int:pk>/', views.StudentRetrieveUpdateDestroy.as_view(), name='student-detail'),
+    path('students/search/<str:roll_number>/', views.StudentSearchByRollNumberView.as_view(), name='student-search-by-roll'),
     path('courses/', views.CourseListCreate.as_view(), name='course-list'),
     path('courses/<int:pk>/', views.CourseRetrieveUpdateDestroy.as_view(), name='course-detail'),
     path('attendance/', views.AttendanceListCreate.as_view(), name='attendance-list'),

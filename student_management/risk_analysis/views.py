@@ -6,20 +6,17 @@ from rest_framework.permissions import IsAuthenticated
 from attendance.models import Student, Attendance, Marks
 from django.db.models import Avg, Count
 from .models import StudentRisk
+from .permissions import IsTeacher
 from django.utils import timezone
-
+from rest_framework.permissions import AllowAny
 class TeacherStudentRiskAnalysis(APIView):
-    permission_classes = [IsAuthenticated]
+    # permission_classes = [IsAuthenticated]  # Use IsTeacher permission
+    permission_classes = [AllowAny]
 
     def get(self, request, username):
-        # Restrict access to teachers only
-        if request.user.role != 'teacher':
-            return Response({'error': 'Unauthorized access. Only teachers can access this endpoint.'}, 
-                           status=status.HTTP_403_FORBIDDEN)
-
         try:
             # Get the student by username
-            student = Student.objects.get(user__username=username)
+            student = Student.objects.get(name=username)
 
             # Calculate attendance percentage
             attendance_records = Attendance.objects.filter(student=student)
@@ -31,18 +28,15 @@ class TeacherStudentRiskAnalysis(APIView):
             avg_marks = Marks.objects.filter(student=student).aggregate(Avg('marks'))['marks__avg'] or 0
 
             # Approximate assignment submission rate
-            # Assumption: Use the count of assignments submitted (we'll assume all Marks entries of type 'assignment' are submitted)
             assignment_records = Marks.objects.filter(student=student, assessment_type='assignment')
             total_assignments = assignment_records.count()
-            submitted_assignments = total_assignments  # Assuming all recorded assignments are submitted
+            submitted_assignments = total_assignments
             assignment_submission_rate = (submitted_assignments / total_assignments * 100) if total_assignments > 0 else 70.0
 
             # Approximate engagement metrics
-            # Assumption: Use attendance percentage as a proxy for engagement (can be improved with more data)
             engagement_metrics = attendance_percentage
 
             # Approximate historical GPA
-            # Assumption: Convert average marks to a 4.0 scale (e.g., 100% -> 4.0, 50% -> 2.0)
             gpa = (avg_marks / 100) * 4.0
 
             # Prepare data for Hugging Face Space API
@@ -74,7 +68,7 @@ class TeacherStudentRiskAnalysis(APIView):
                     student=student,
                     defaults={
                         'risk_level': risk_level,
-                        'confidence': predicted_grade,  # Using predicted_grade as confidence for simplicity
+                        'confidence': predicted_grade,
                         'last_updated': timezone.now()
                     }
                 )
@@ -106,7 +100,7 @@ class TeacherStudentRiskAnalysis(APIView):
             return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 class StudentRiskAnalysis(APIView):
-    permission_classes = [IsAuthenticated]
+ #   permission_classes = [IsAuthenticated]
 
     def get(self, request):
         # Restrict access to students only
@@ -168,7 +162,7 @@ class StudentRiskAnalysis(APIView):
                     student=student,
                     defaults={
                         'risk_level': risk_level,
-                        'confidence': predicted_grade,  # Using predicted_grade as confidence for simplicity
+                        'confidence': predicted_grade,
                         'last_updated': timezone.now()
                     }
                 )
