@@ -2,6 +2,7 @@ from rest_framework import generics, status
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
+from rest_framework.authentication import TokenAuthentication
 from .models import Student, Attendance, Marks, Course
 from .serializers import StudentSerializer, AttendanceSerializer, MarksSerializer, CourseSerializer
 from .permissions import IsTeacher
@@ -112,4 +113,40 @@ class AllMarksView(APIView):
             return Response(serializer.data, status=status.HTTP_200_OK)
         except Exception as e:
             logger.error(f"Error in AllMarksView: {str(e)}", exc_info=True)
+            return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+# Search Student by Roll Number (Teacher-only)
+class StudentSearchByRollNumberView(APIView):
+    permission_classes = [IsTeacher]
+    authentication_classes = [TokenAuthentication]
+    def get(self, request, roll_number):
+        try:
+            logger.info(f"Searching for student with roll number: {roll_number}")
+            student = Student.objects.get(roll_number=roll_number)
+            student_serializer = StudentSerializer(student)
+            
+            # Fetch related attendance and marks
+            attendance = Attendance.objects.filter(student=student).select_related('subject')
+            marks = Marks.objects.filter(student=student).select_related('course')
+            
+            attendance_serializer = AttendanceSerializer(attendance, many=True)
+            marks_serializer = MarksSerializer(marks, many=True)
+            
+            logger.info(f"Found student: {student.name}")
+            logger.info(f"Student data: {student_serializer.data}")
+            logger.info(f"Attendance data: {attendance_serializer.data}")
+            logger.info(f"Marks data: {marks_serializer.data}")
+            
+            response_data = {
+                "student": student_serializer.data,
+                "attendance": attendance_serializer.data,
+                "marks": marks_serializer.data
+            }
+            logger.info(f"Response data: {response_data}")
+            return Response(response_data, status=status.HTTP_200_OK)
+        except Student.DoesNotExist:
+            logger.warning(f"Student with roll number {roll_number} not found")
+            return Response({"error": "Student not found"}, status=status.HTTP_404_NOT_FOUND)
+        except Exception as e:
+            logger.error(f"Error in StudentSearchByRollNumberView: {str(e)}", exc_info=True)
             return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
