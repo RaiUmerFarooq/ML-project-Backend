@@ -49,7 +49,7 @@ class TeacherStudentRiskAnalysis(APIView):
             }
 
             # Hugging Face Space API configuration
-            HF_API_URL = "https://raiumer-ppas-model-api.hf.space/predict/"
+            HF_API_URL = "https://ahmadabdulkhaliq-ppas-model-api.hf.space/predict/"
 
             headers = {
                 "Content-Type": "application/json"
