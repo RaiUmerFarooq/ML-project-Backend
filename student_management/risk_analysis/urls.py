@@ -6,4 +6,5 @@ app_name = 'risk_analysis'
 urlpatterns = [
     path('teacher/risk-analysis/<str:username>/', views.TeacherStudentRiskAnalysis.as_view(), name='teacher-risk-analysis'),
     path('student/risk-analysis/', views.StudentRiskAnalysis.as_view(), name='student-risk-analysis'),
+    path('custom/risk-analysis/', views.CustomRiskAnalysis.as_view(), name='custom-risk-analysis'),
 ]
