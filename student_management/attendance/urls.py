@@ -17,4 +17,6 @@ urlpatterns = [
     path('all-marks/', views.AllMarksView.as_view(), name='all-marks'),
     path('login/', views_auth.LoginView.as_view(), name='login'),
     path('logout/', views_auth.LogoutView.as_view(), name='logout'),
+    path('students/all-details/', views.AllStudentsDetailsView.as_view(), name='all-students-details'),
+    path('students/upload-csv/', views.StudentCSVUploadView.as_view(), name='student-csv-upload'),
 ]
