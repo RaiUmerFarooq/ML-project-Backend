@@ -1533,3 +1533,1281 @@ INFO 2025-04-27 10:38:16,642 views CSV export generated successfully for S001
 INFO 2025-04-27 10:38:16,644 basehttp "GET /api/my-data/export-csv/ HTTP/1.1" 200 886
 INFO 2025-04-27 10:42:39,743 autoreload E:\suresh\ML-project\Backend\student_management\attendance\urls.py changed, reloading.
 INFO 2025-04-27 10:42:40,556 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 11:15:46,340 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 11:16:18,323 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-04-27 11:16:18,493 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 11:16:18,498 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-04-27 11:16:18,543 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 11:16:18,546 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-04-27 11:20:12,029 autoreload E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py changed, reloading.
+INFO 2025-04-27 11:20:12,939 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 11:20:26,634 autoreload E:\suresh\ML-project\Backend\student_management\risk_analysis\urls.py changed, reloading.
+INFO 2025-04-27 11:20:27,462 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 11:23:08,861 basehttp "OPTIONS /risk_analysis/student/all-courses-risk-analysis/ HTTP/1.1" 200 0
+WARNING 2025-04-27 11:23:08,941 log Not Found: /risk_analysis/student/all-courses-risk-analysis/
+INFO 2025-04-27 11:23:08,943 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+WARNING 2025-04-27 11:23:08,944 basehttp "GET /risk_analysis/student/all-courses-risk-analysis/ HTTP/1.1" 404 2625
+INFO 2025-04-27 11:23:08,944 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-04-27 11:23:40,770 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-04-27 11:23:40,922 basehttp "OPTIONS /student/all-courses-risk-analysis/ HTTP/1.1" 200 0
+INFO 2025-04-27 11:23:40,926 basehttp "OPTIONS /student/all-courses-risk-analysis/ HTTP/1.1" 200 0
+INFO 2025-04-27 11:23:40,967 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 11:23:40,972 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+WARNING 2025-04-27 11:23:40,982 log Not Found: /student/all-courses-risk-analysis/
+WARNING 2025-04-27 11:23:40,985 basehttp "GET /student/all-courses-risk-analysis/ HTTP/1.1" 404 2583
+INFO 2025-04-27 11:23:41,044 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-04-27 11:23:41,046 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+WARNING 2025-04-27 11:23:41,056 log Not Found: /student/all-courses-risk-analysis/
+WARNING 2025-04-27 11:23:41,058 basehttp "GET /student/all-courses-risk-analysis/ HTTP/1.1" 404 2583
+INFO 2025-04-27 11:24:02,616 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-04-27 11:24:02,800 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 11:24:02,800 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-04-27 11:24:02,806 basehttp "OPTIONS /api/student/all-courses-risk-analysis/ HTTP/1.1" 200 0
+INFO 2025-04-27 11:24:02,807 basehttp "OPTIONS /api/student/all-courses-risk-analysis/ HTTP/1.1" 200 0
+INFO 2025-04-27 11:24:02,848 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 11:24:02,858 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+ERROR 2025-04-27 11:24:02,870 log Internal Server Error: /api/student/all-courses-risk-analysis/
+ERROR 2025-04-27 11:24:02,871 basehttp "GET /api/student/all-courses-risk-analysis/ HTTP/1.1" 500 172
+ERROR 2025-04-27 11:24:02,907 log Internal Server Error: /api/student/all-courses-risk-analysis/
+ERROR 2025-04-27 11:24:02,978 basehttp "GET /api/student/all-courses-risk-analysis/ HTTP/1.1" 500 172
+INFO 2025-04-27 11:29:53,517 autoreload E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py changed, reloading.
+INFO 2025-04-27 11:29:54,622 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 11:30:16,044 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-04-27 11:30:16,239 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 11:30:16,248 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+ERROR 2025-04-27 11:30:16,282 log Internal Server Error: /api/student/all-courses-risk-analysis/
+ERROR 2025-04-27 11:30:16,284 basehttp "GET /api/student/all-courses-risk-analysis/ HTTP/1.1" 500 40
+INFO 2025-04-27 11:30:16,331 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 11:30:16,349 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+ERROR 2025-04-27 11:30:16,382 log Internal Server Error: /api/student/all-courses-risk-analysis/
+ERROR 2025-04-27 11:30:16,402 basehttp "GET /api/student/all-courses-risk-analysis/ HTTP/1.1" 500 40
+INFO 2025-04-27 11:30:41,181 autoreload E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py changed, reloading.
+INFO 2025-04-27 11:30:42,115 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 11:31:13,018 autoreload E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py changed, reloading.
+INFO 2025-04-27 11:31:13,941 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 11:31:28,987 autoreload E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py changed, reloading.
+INFO 2025-04-27 11:31:29,857 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 11:31:44,716 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-04-27 11:31:44,913 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+WARNING 2025-04-27 11:31:44,934 log Not Found: /risk_analysis/student/all-courses-risk-analysis/
+INFO 2025-04-27 11:31:44,936 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+WARNING 2025-04-27 11:31:44,937 basehttp "GET /risk_analysis/student/all-courses-risk-analysis/ HTTP/1.1" 404 2625
+INFO 2025-04-27 11:31:44,993 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 11:31:44,993 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+WARNING 2025-04-27 11:31:45,004 log Not Found: /risk_analysis/student/all-courses-risk-analysis/
+WARNING 2025-04-27 11:31:45,005 basehttp "GET /risk_analysis/student/all-courses-risk-analysis/ HTTP/1.1" 404 2625
+INFO 2025-04-27 11:32:09,442 basehttp "POST /api/login/ HTTP/1.1" 200 107
+ERROR 2025-04-27 11:32:09,640 log Internal Server Error: /api/student/all-courses-risk-analysis/
+INFO 2025-04-27 11:32:09,641 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+ERROR 2025-04-27 11:32:09,647 basehttp "GET /api/student/all-courses-risk-analysis/ HTTP/1.1" 500 40
+INFO 2025-04-27 11:32:09,666 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+ERROR 2025-04-27 11:32:09,703 log Internal Server Error: /api/student/all-courses-risk-analysis/
+ERROR 2025-04-27 11:32:09,714 basehttp "GET /api/student/all-courses-risk-analysis/ HTTP/1.1" 500 40
+INFO 2025-04-27 11:32:09,714 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 11:32:09,733 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-04-27 11:33:08,423 autoreload E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py changed, reloading.
+INFO 2025-04-27 11:33:09,267 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 11:33:11,047 autoreload E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py changed, reloading.
+INFO 2025-04-27 11:33:11,799 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 11:33:20,762 autoreload E:\suresh\ML-project\Backend\student_management\risk_analysis\urls.py changed, reloading.
+INFO 2025-04-27 11:33:21,541 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 11:33:23,224 autoreload E:\suresh\ML-project\Backend\student_management\risk_analysis\urls.py changed, reloading.
+INFO 2025-04-27 11:33:23,964 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 11:33:44,358 autoreload E:\suresh\ML-project\Backend\student_management\risk_analysis\urls.py changed, reloading.
+INFO 2025-04-27 11:33:45,134 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 11:42:59,496 autoreload E:\suresh\ML-project\Backend\student_management\attendance\models.py changed, reloading.
+INFO 2025-04-27 11:43:00,242 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 11:43:02,461 autoreload E:\suresh\ML-project\Backend\student_management\attendance\models.py changed, reloading.
+INFO 2025-04-27 11:43:03,139 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 11:45:12,318 autoreload E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py changed, reloading.
+INFO 2025-04-27 11:45:13,336 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 11:45:34,232 autoreload E:\suresh\ML-project\Backend\student_management\risk_analysis\urls.py changed, reloading.
+INFO 2025-04-27 11:45:35,080 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 11:48:50,690 autoreload E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py changed, reloading.
+INFO 2025-04-27 11:48:51,683 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 11:49:19,912 autoreload E:\suresh\ML-project\Backend\student_management\risk_analysis\urls.py changed, reloading.
+INFO 2025-04-27 11:49:20,912 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 11:49:35,874 basehttp "OPTIONS /risk_analysis/student/courses/ HTTP/1.1" 200 0
+WARNING 2025-04-27 11:49:35,889 log Not Found: /risk_analysis/student/courses/
+WARNING 2025-04-27 11:49:35,891 basehttp "GET /risk_analysis/student/courses/ HTTP/1.1" 404 2571
+INFO 2025-04-27 11:49:35,922 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-04-27 11:49:35,922 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 11:49:44,477 basehttp "POST /api/login/ HTTP/1.1" 200 107
+WARNING 2025-04-27 11:49:44,643 log Not Found: /risk_analysis/student/courses/
+WARNING 2025-04-27 11:49:44,644 basehttp "GET /risk_analysis/student/courses/ HTTP/1.1" 404 2571
+WARNING 2025-04-27 11:49:44,654 log Not Found: /risk_analysis/student/courses/
+WARNING 2025-04-27 11:49:44,657 basehttp "GET /risk_analysis/student/courses/ HTTP/1.1" 404 2571
+INFO 2025-04-27 11:49:44,696 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 11:49:44,747 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-04-27 11:49:44,795 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 11:49:44,799 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-04-27 11:50:20,415 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-04-27 11:50:20,569 basehttp "OPTIONS /api/student/courses/ HTTP/1.1" 200 0
+INFO 2025-04-27 11:50:20,575 basehttp "OPTIONS /api/student/courses/ HTTP/1.1" 200 0
+INFO 2025-04-27 11:50:20,613 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 11:50:20,626 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-04-27 11:50:20,641 views Fetched 6 courses for student S001
+INFO 2025-04-27 11:50:20,647 basehttp "GET /api/student/courses/ HTTP/1.1" 200 257
+INFO 2025-04-27 11:50:20,684 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 11:50:20,697 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-04-27 11:50:20,704 basehttp "OPTIONS /api/student/course-prediction/1/ HTTP/1.1" 200 0
+INFO 2025-04-27 11:50:20,711 views Fetched 6 courses for student S001
+INFO 2025-04-27 11:50:20,715 basehttp "GET /api/student/courses/ HTTP/1.1" 200 257
+ERROR 2025-04-27 11:50:32,491 views Error in StudentCourseRiskPredictionView: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+Traceback (most recent call last):
+  File "E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py", line 320, in get
+    StudentRisk.objects.update_or_create(
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 986, in update_or_create
+    obj, created = self.select_for_update().get_or_create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1303, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+ERROR 2025-04-27 11:50:32,550 log Internal Server Error: /api/student/course-prediction/1/
+ERROR 2025-04-27 11:50:32,551 basehttp "GET /api/student/course-prediction/1/ HTTP/1.1" 500 126
+INFO 2025-04-27 11:50:32,857 basehttp "OPTIONS /api/student/course-prediction/2/ HTTP/1.1" 200 0
+ERROR 2025-04-27 11:50:33,559 views Error in StudentCourseRiskPredictionView: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+Traceback (most recent call last):
+  File "E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py", line 320, in get
+    StudentRisk.objects.update_or_create(
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 986, in update_or_create
+    obj, created = self.select_for_update().get_or_create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1303, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+ERROR 2025-04-27 11:50:33,565 log Internal Server Error: /api/student/course-prediction/1/
+ERROR 2025-04-27 11:50:33,565 basehttp "GET /api/student/course-prediction/1/ HTTP/1.1" 500 126
+ERROR 2025-04-27 11:50:33,737 views Error in StudentCourseRiskPredictionView: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+Traceback (most recent call last):
+  File "E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py", line 320, in get
+    StudentRisk.objects.update_or_create(
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 986, in update_or_create
+    obj, created = self.select_for_update().get_or_create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1303, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+ERROR 2025-04-27 11:50:33,743 log Internal Server Error: /api/student/course-prediction/2/
+ERROR 2025-04-27 11:50:33,745 basehttp "GET /api/student/course-prediction/2/ HTTP/1.1" 500 126
+INFO 2025-04-27 11:50:33,763 basehttp "OPTIONS /api/student/course-prediction/3/ HTTP/1.1" 200 0
+ERROR 2025-04-27 11:50:34,689 views Error in StudentCourseRiskPredictionView: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+Traceback (most recent call last):
+  File "E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py", line 320, in get
+    StudentRisk.objects.update_or_create(
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 986, in update_or_create
+    obj, created = self.select_for_update().get_or_create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1303, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+ERROR 2025-04-27 11:50:34,693 log Internal Server Error: /api/student/course-prediction/2/
+ERROR 2025-04-27 11:50:34,694 basehttp "GET /api/student/course-prediction/2/ HTTP/1.1" 500 126
+ERROR 2025-04-27 11:50:34,707 views Error in StudentCourseRiskPredictionView: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+Traceback (most recent call last):
+  File "E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py", line 320, in get
+    StudentRisk.objects.update_or_create(
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 986, in update_or_create
+    obj, created = self.select_for_update().get_or_create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1303, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+ERROR 2025-04-27 11:50:34,710 log Internal Server Error: /api/student/course-prediction/3/
+ERROR 2025-04-27 11:50:34,710 basehttp "GET /api/student/course-prediction/3/ HTTP/1.1" 500 126
+INFO 2025-04-27 11:50:34,722 basehttp "OPTIONS /api/student/course-prediction/4/ HTTP/1.1" 200 0
+ERROR 2025-04-27 11:50:35,615 views Error in StudentCourseRiskPredictionView: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+Traceback (most recent call last):
+  File "E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py", line 320, in get
+    StudentRisk.objects.update_or_create(
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 986, in update_or_create
+    obj, created = self.select_for_update().get_or_create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1303, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+ERROR 2025-04-27 11:50:35,619 log Internal Server Error: /api/student/course-prediction/3/
+ERROR 2025-04-27 11:50:35,620 basehttp "GET /api/student/course-prediction/3/ HTTP/1.1" 500 126
+ERROR 2025-04-27 11:50:36,322 views Error in StudentCourseRiskPredictionView: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+Traceback (most recent call last):
+  File "E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py", line 320, in get
+    StudentRisk.objects.update_or_create(
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 986, in update_or_create
+    obj, created = self.select_for_update().get_or_create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1303, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+ERROR 2025-04-27 11:50:36,326 log Internal Server Error: /api/student/course-prediction/4/
+ERROR 2025-04-27 11:50:36,327 basehttp "GET /api/student/course-prediction/4/ HTTP/1.1" 500 126
+INFO 2025-04-27 11:50:36,337 basehttp "OPTIONS /api/student/course-prediction/5/ HTTP/1.1" 200 0
+ERROR 2025-04-27 11:50:37,224 views Error in StudentCourseRiskPredictionView: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+Traceback (most recent call last):
+  File "E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py", line 320, in get
+    StudentRisk.objects.update_or_create(
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 986, in update_or_create
+    obj, created = self.select_for_update().get_or_create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1303, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+ERROR 2025-04-27 11:50:37,229 log Internal Server Error: /api/student/course-prediction/5/
+ERROR 2025-04-27 11:50:37,230 basehttp "GET /api/student/course-prediction/5/ HTTP/1.1" 500 126
+INFO 2025-04-27 11:50:37,244 basehttp "OPTIONS /api/student/course-prediction/6/ HTTP/1.1" 200 0
+ERROR 2025-04-27 11:50:37,253 views Error in StudentCourseRiskPredictionView: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+Traceback (most recent call last):
+  File "E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py", line 320, in get
+    StudentRisk.objects.update_or_create(
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 986, in update_or_create
+    obj, created = self.select_for_update().get_or_create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1303, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+ERROR 2025-04-27 11:50:37,260 log Internal Server Error: /api/student/course-prediction/4/
+ERROR 2025-04-27 11:50:37,265 basehttp "GET /api/student/course-prediction/4/ HTTP/1.1" 500 126
+ERROR 2025-04-27 11:50:38,152 views Error in StudentCourseRiskPredictionView: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+Traceback (most recent call last):
+  File "E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py", line 320, in get
+    StudentRisk.objects.update_or_create(
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 986, in update_or_create
+    obj, created = self.select_for_update().get_or_create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1303, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+ERROR 2025-04-27 11:50:38,155 log Internal Server Error: /api/student/course-prediction/6/
+ERROR 2025-04-27 11:50:38,156 basehttp "GET /api/student/course-prediction/6/ HTTP/1.1" 500 126
+ERROR 2025-04-27 11:50:38,185 views Error in StudentCourseRiskPredictionView: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+Traceback (most recent call last):
+  File "E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py", line 320, in get
+    StudentRisk.objects.update_or_create(
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 986, in update_or_create
+    obj, created = self.select_for_update().get_or_create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1303, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+ERROR 2025-04-27 11:50:38,189 log Internal Server Error: /api/student/course-prediction/5/
+ERROR 2025-04-27 11:50:38,191 basehttp "GET /api/student/course-prediction/5/ HTTP/1.1" 500 126
+ERROR 2025-04-27 11:50:39,127 views Error in StudentCourseRiskPredictionView: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+Traceback (most recent call last):
+  File "E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py", line 320, in get
+    StudentRisk.objects.update_or_create(
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 986, in update_or_create
+    obj, created = self.select_for_update().get_or_create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1303, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+ERROR 2025-04-27 11:50:39,129 log Internal Server Error: /api/student/course-prediction/6/
+ERROR 2025-04-27 11:50:39,130 basehttp "GET /api/student/course-prediction/6/ HTTP/1.1" 500 126
+INFO 2025-04-27 11:58:46,391 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-04-27 11:58:46,502 basehttp "OPTIONS /api/students/all-details/ HTTP/1.1" 200 0
+INFO 2025-04-27 11:58:46,503 basehttp "OPTIONS /api/students/all-details/ HTTP/1.1" 200 0
+INFO 2025-04-27 11:58:46,525 views Fetching all students with details
+INFO 2025-04-27 11:58:46,526 views Found 12 students
+INFO 2025-04-27 11:58:46,784 views Serialized all students data
+INFO 2025-04-27 11:58:46,787 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-04-27 11:58:46,805 views Fetching all students with details
+INFO 2025-04-27 11:58:46,808 views Found 12 students
+INFO 2025-04-27 11:58:46,828 basehttp "OPTIONS /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 0
+INFO 2025-04-27 11:58:46,844 basehttp "OPTIONS /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 0
+INFO 2025-04-27 11:58:46,850 basehttp "OPTIONS /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 0
+INFO 2025-04-27 11:58:46,857 basehttp "OPTIONS /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 0
+INFO 2025-04-27 11:58:46,862 basehttp "OPTIONS /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 0
+INFO 2025-04-27 11:58:46,867 basehttp "OPTIONS /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 0
+INFO 2025-04-27 11:58:46,873 basehttp "OPTIONS /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 0
+INFO 2025-04-27 11:58:46,876 basehttp "OPTIONS /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 0
+INFO 2025-04-27 11:58:46,880 basehttp "OPTIONS /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 0
+INFO 2025-04-27 11:58:46,886 basehttp "OPTIONS /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 0
+INFO 2025-04-27 11:58:46,890 basehttp "OPTIONS /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 0
+INFO 2025-04-27 11:58:46,894 basehttp "OPTIONS /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 0
+INFO 2025-04-27 11:58:47,094 views Serialized all students data
+INFO 2025-04-27 11:58:47,096 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-04-27 11:58:47,928 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-04-27 11:58:48,046 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-04-27 11:58:48,087 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-04-27 11:58:48,110 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-04-27 11:58:48,112 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-04-27 11:58:48,126 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-04-27 11:58:48,847 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-04-27 11:58:48,992 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-04-27 11:58:49,024 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-04-27 11:58:49,025 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-04-27 11:58:49,060 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-04-27 11:58:49,071 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-04-27 11:58:49,776 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-04-27 11:58:49,935 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-04-27 11:58:49,951 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-04-27 11:58:49,962 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-04-27 11:58:49,982 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-04-27 11:58:50,009 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-04-27 11:58:50,698 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-04-27 11:58:50,702 basehttp "OPTIONS /api/all-attendance/ HTTP/1.1" 200 0
+INFO 2025-04-27 11:58:50,708 basehttp "OPTIONS /api/all-marks/ HTTP/1.1" 200 0
+INFO 2025-04-27 11:58:50,720 basehttp "OPTIONS /api/all-attendance/ HTTP/1.1" 200 0
+INFO 2025-04-27 11:58:50,724 basehttp "OPTIONS /api/all-marks/ HTTP/1.1" 200 0
+INFO 2025-04-27 11:58:50,738 views Fetching all attendance records
+INFO 2025-04-27 11:58:50,742 views Found 72 attendance records
+INFO 2025-04-27 11:58:50,743 views Serialized attendance data
+INFO 2025-04-27 11:58:50,752 basehttp "GET /api/all-attendance/ HTTP/1.1" 200 13960
+INFO 2025-04-27 11:58:50,782 views Fetching all marks records
+INFO 2025-04-27 11:58:50,785 views Found 72 marks records
+INFO 2025-04-27 11:58:50,786 views Serialized marks data
+INFO 2025-04-27 11:58:50,796 basehttp "GET /api/all-marks/ HTTP/1.1" 200 15826
+INFO 2025-04-27 11:58:50,814 views Fetching all attendance records
+INFO 2025-04-27 11:58:50,820 views Found 72 attendance records
+INFO 2025-04-27 11:58:50,820 views Serialized attendance data
+INFO 2025-04-27 11:58:50,830 basehttp "GET /api/all-attendance/ HTTP/1.1" 200 13960
+INFO 2025-04-27 11:58:50,858 views Fetching all marks records
+INFO 2025-04-27 11:58:50,864 views Found 72 marks records
+INFO 2025-04-27 11:58:50,868 views Serialized marks data
+INFO 2025-04-27 11:58:50,873 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-04-27 11:58:50,888 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-04-27 11:58:50,889 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-04-27 11:58:50,891 basehttp "GET /api/all-marks/ HTTP/1.1" 200 15826
+INFO 2025-04-27 11:58:50,891 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-04-27 11:58:50,921 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-04-27 11:59:12,115 basehttp "OPTIONS /api/students/search/S001/ HTTP/1.1" 200 0
+INFO 2025-04-27 11:59:12,130 views Searching for student with roll_number: S001
+INFO 2025-04-27 11:59:12,132 views Found student: Alice Johnson
+INFO 2025-04-27 11:59:12,133 views Student data: {'id': 2, 'name': 'Alice Johnson', 'roll_number': 'S001'}
+INFO 2025-04-27 11:59:12,142 views Attendance data: [{'id': 1, 'student': {'id': 2, 'name': 'Alice Johnson', 'roll_number': 'S001'}, 'subject': {'id': 1, 'name': 'Math', 'code': 'MATH'}, 'date': '2025-04-27', 'is_present': True, 'checkin_time': '17:44:48.410387'}, {'id': 2, 'student': {'id': 2, 'name': 'Alice Johnson', 'roll_number': 'S001'}, 'subject': {'id': 2, 'name': 'Physics', 'code': 'PHYSICS'}, 'date': '2025-04-27', 'is_present': True, 'checkin_time': '17:44:48.432332'}, {'id': 9, 'student': {'id': 2, 'name': 'Alice Johnson', 'roll_number': 'S001'}, 'subject': {'id': 3, 'name': 'Chemistry', 'code': 'CHEMISTRY'}, 'date': '2025-04-29', 'is_present': True, 'checkin_time': '17:47:52.985227'}, {'id': 10, 'student': {'id': 2, 'name': 'Alice Johnson', 'roll_number': 'S001'}, 'subject': {'id': 4, 'name': 'Biology', 'code': 'BIOLOGY'}, 'date': '2025-04-30', 'is_present': True, 'checkin_time': '17:47:53.007730'}, {'id': 33, 'student': {'id': 2, 'name': 'Alice Johnson', 'roll_number': 'S001'}, 'subject': {'id': 5, 'name': 'English', 'code': 'ENGLISH'}, 'date': '2025-05-01', 'is_present': True, 'checkin_time': '17:53:06.134648'}, {'id': 34, 'student': {'id': 2, 'name': 'Alice Johnson', 'roll_number': 'S001'}, 'subject': {'id': 6, 'name': 'History', 'code': 'HISTORY'}, 'date': '2025-05-02', 'is_present': True, 'checkin_time': '17:53:06.156398'}]
+INFO 2025-04-27 11:59:12,155 views Marks data: [{'id': 1, 'student': {'id': 2, 'name': 'Alice Johnson', 'roll_number': 'S001'}, 'course': {'id': 1, 'name': 'Math', 'code': 'MATH'}, 'assessment_type': 'quiz', 'assessment_number': 1, 'marks': 85.0, 'max_marks': 100.0, 'date': '2025-04-27'}, {'id': 2, 'student': {'id': 2, 'name': 'Alice Johnson', 'roll_number': 'S001'}, 'course': {'id': 2, 'name': 'Physics', 'code': 'PHYSICS'}, 'assessment_type': 'quiz', 'assessment_number': 1, 'marks': 78.0, 'max_marks': 100.0, 'date': '2025-04-27'}, {'id': 9, 'student': {'id': 2, 'name': 'Alice Johnson', 'roll_number': 'S001'}, 'course': {'id': 3, 'name': 'Chemistry', 'code': 'CHEMISTRY'}, 'assessment_type': 'quiz', 'assessment_number': 1, 'marks': 82.0, 'max_marks': 100.0, 'date': '2025-04-29'}, {'id': 10, 'student': {'id': 2, 'name': 'Alice Johnson', 'roll_number': 'S001'}, 'course': {'id': 4, 'name': 'Biology', 'code': 'BIOLOGY'}, 'assessment_type': 'quiz', 'assessment_number': 1, 'marks': 90.0, 'max_marks': 100.0, 'date': '2025-04-30'}, {'id': 33, 'student': {'id': 2, 'name': 'Alice Johnson', 'roll_number': 'S001'}, 'course': {'id': 5, 'name': 'English', 'code': 'ENGLISH'}, 'assessment_type': 'quiz', 'assessment_number': 1, 'marks': 80.0, 'max_marks': 100.0, 'date': '2025-05-01'}, {'id': 34, 'student': {'id': 2, 'name': 'Alice Johnson', 'roll_number': 'S001'}, 'course': {'id': 6, 'name': 'History', 'code': 'HISTORY'}, 'assessment_type': 'quiz', 'assessment_number': 1, 'marks': 85.0, 'max_marks': 100.0, 'date': '2025-05-02'}]
+INFO 2025-04-27 11:59:12,155 views Response data: {'student': {'id': 2, 'name': 'Alice Johnson', 'roll_number': 'S001'}, 'attendance': [{'id': 1, 'student': {'id': 2, 'name': 'Alice Johnson', 'roll_number': 'S001'}, 'subject': {'id': 1, 'name': 'Math', 'code': 'MATH'}, 'date': '2025-04-27', 'is_present': True, 'checkin_time': '17:44:48.410387'}, {'id': 2, 'student': {'id': 2, 'name': 'Alice Johnson', 'roll_number': 'S001'}, 'subject': {'id': 2, 'name': 'Physics', 'code': 'PHYSICS'}, 'date': '2025-04-27', 'is_present': True, 'checkin_time': '17:44:48.432332'}, {'id': 9, 'student': {'id': 2, 'name': 'Alice Johnson', 'roll_number': 'S001'}, 'subject': {'id': 3, 'name': 'Chemistry', 'code': 'CHEMISTRY'}, 'date': '2025-04-29', 'is_present': True, 'checkin_time': '17:47:52.985227'}, {'id': 10, 'student': {'id': 2, 'name': 'Alice Johnson', 'roll_number': 'S001'}, 'subject': {'id': 4, 'name': 'Biology', 'code': 'BIOLOGY'}, 'date': '2025-04-30', 'is_present': True, 'checkin_time': '17:47:53.007730'}, {'id': 33, 'student': {'id': 2, 'name': 'Alice Johnson', 'roll_number': 'S001'}, 'subject': {'id': 5, 'name': 'English', 'code': 'ENGLISH'}, 'date': '2025-05-01', 'is_present': True, 'checkin_time': '17:53:06.134648'}, {'id': 34, 'student': {'id': 2, 'name': 'Alice Johnson', 'roll_number': 'S001'}, 'subject': {'id': 6, 'name': 'History', 'code': 'HISTORY'}, 'date': '2025-05-02', 'is_present': True, 'checkin_time': '17:53:06.156398'}], 'marks': [{'id': 1, 'student': {'id': 2, 'name': 'Alice Johnson', 'roll_number': 'S001'}, 'course': {'id': 1, 'name': 'Math', 'code': 'MATH'}, 'assessment_type': 'quiz', 'assessment_number': 1, 'marks': 85.0, 'max_marks': 100.0, 'date': '2025-04-27'}, {'id': 2, 'student': {'id': 2, 'name': 'Alice Johnson', 'roll_number': 'S001'}, 'course': {'id': 2, 'name': 'Physics', 'code': 'PHYSICS'}, 'assessment_type': 'quiz', 'assessment_number': 1, 'marks': 78.0, 'max_marks': 100.0, 'date': '2025-04-27'}, {'id': 9, 'student': {'id': 2, 'name': 'Alice Johnson', 'roll_number': 'S001'}, 'course': {'id': 3, 'name': 'Chemistry', 'code': 'CHEMISTRY'}, 'assessment_type': 'quiz', 'assessment_number': 1, 'marks': 82.0, 'max_marks': 100.0, 'date': '2025-04-29'}, {'id': 10, 'student': {'id': 2, 'name': 'Alice Johnson', 'roll_number': 'S001'}, 'course': {'id': 4, 'name': 'Biology', 'code': 'BIOLOGY'}, 'assessment_type': 'quiz', 'assessment_number': 1, 'marks': 90.0, 'max_marks': 100.0, 'date': '2025-04-30'}, {'id': 33, 'student': {'id': 2, 'name': 'Alice Johnson', 'roll_number': 'S001'}, 'course': {'id': 5, 'name': 'English', 'code': 'ENGLISH'}, 'assessment_type': 'quiz', 'assessment_number': 1, 'marks': 80.0, 'max_marks': 100.0, 'date': '2025-05-01'}, {'id': 34, 'student': {'id': 2, 'name': 'Alice Johnson', 'roll_number': 'S001'}, 'course': {'id': 6, 'name': 'History', 'code': 'HISTORY'}, 'assessment_type': 'quiz', 'assessment_number': 1, 'marks': 85.0, 'max_marks': 100.0, 'date': '2025-05-02'}]}
+INFO 2025-04-27 11:59:12,157 basehttp "GET /api/students/search/S001/ HTTP/1.1" 200 2599
+INFO 2025-04-27 11:59:13,080 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-04-27 11:59:36,679 basehttp "OPTIONS /api/students/search/S002/ HTTP/1.1" 200 0
+INFO 2025-04-27 11:59:36,697 views Searching for student with roll_number: S002
+INFO 2025-04-27 11:59:36,699 views Found student: Bob Smith
+INFO 2025-04-27 11:59:36,701 views Student data: {'id': 3, 'name': 'Bob Smith', 'roll_number': 'S002'}
+INFO 2025-04-27 11:59:36,716 views Attendance data: [{'id': 3, 'student': {'id': 3, 'name': 'Bob Smith', 'roll_number': 'S002'}, 'subject': {'id': 1, 'name': 'Math', 'code': 'MATH'}, 'date': '2025-04-27', 'is_present': True, 'checkin_time': '17:44:49.321735'}, {'id': 4, 'student': {'id': 3, 'name': 'Bob Smith', 'roll_number': 'S002'}, 'subject': {'id': 2, 'name': 'Physics', 'code': 'PHYSICS'}, 'date': '2025-04-27', 'is_present': True, 'checkin_time': '17:44:49.336969'}, {'id': 11, 'student': {'id': 3, 'name': 'Bob Smith', 'roll_number': 'S002'}, 'subject': {'id': 3, 'name': 'Chemistry', 'code': 'CHEMISTRY'}, 'date': '2025-04-29', 'is_present': False, 'checkin_time': '17:47:53.027810'}, {'id': 12, 'student': {'id': 3, 'name': 'Bob Smith', 'roll_number': 'S002'}, 'subject': {'id': 4, 'name': 'Biology', 'code': 'BIOLOGY'}, 'date': '2025-04-30', 'is_present': True, 'checkin_time': '17:47:53.046985'}, {'id': 35, 'student': {'id': 3, 'name': 'Bob Smith', 'roll_number': 'S002'}, 'subject': {'id': 5, 'name': 'English', 'code': 'ENGLISH'}, 'date': '2025-05-01', 'is_present': False, 'checkin_time': '17:53:06.201161'}, {'id': 36, 'student': {'id': 3, 'name': 'Bob Smith', 'roll_number': 'S002'}, 'subject': {'id': 6, 'name': 'History', 'code': 'HISTORY'}, 'date': '2025-05-02', 'is_present': True, 'checkin_time': '17:53:06.219772'}]
+INFO 2025-04-27 11:59:36,733 views Marks data: [{'id': 3, 'student': {'id': 3, 'name': 'Bob Smith', 'roll_number': 'S002'}, 'course': {'id': 1, 'name': 'Math', 'code': 'MATH'}, 'assessment_type': 'quiz', 'assessment_number': 1, 'marks': 70.0, 'max_marks': 100.0, 'date': '2025-04-27'}, {'id': 4, 'student': {'id': 3, 'name': 'Bob Smith', 'roll_number': 'S002'}, 'course': {'id': 2, 'name': 'Physics', 'code': 'PHYSICS'}, 'assessment_type': 'quiz', 'assessment_number': 1, 'marks': 82.0, 'max_marks': 100.0, 'date': '2025-04-27'}, {'id': 11, 'student': {'id': 3, 'name': 'Bob Smith', 'roll_number': 'S002'}, 'course': {'id': 3, 'name': 'Chemistry', 'code': 'CHEMISTRY'}, 'assessment_type': 'quiz', 'assessment_number': 1, 'marks': 68.0, 'max_marks': 100.0, 'date': '2025-04-29'}, {'id': 12, 'student': {'id': 3, 'name': 'Bob Smith', 'roll_number': 'S002'}, 'course': {'id': 4, 'name': 'Biology', 'code': 'BIOLOGY'}, 'assessment_type': 'quiz', 'assessment_number': 1, 'marks': 75.0, 'max_marks': 100.0, 'date': '2025-04-30'}, {'id': 35, 'student': {'id': 3, 'name': 'Bob Smith', 'roll_number': 'S002'}, 'course': {'id': 5, 'name': 'English', 'code': 'ENGLISH'}, 'assessment_type': 'quiz', 'assessment_number': 1, 'marks': 70.0, 'max_marks': 100.0, 'date': '2025-05-01'}, {'id': 36, 'student': {'id': 3, 'name': 'Bob Smith', 'roll_number': 'S002'}, 'course': {'id': 6, 'name': 'History', 'code': 'HISTORY'}, 'assessment_type': 'quiz', 'assessment_number': 1, 'marks': 78.0, 'max_marks': 100.0, 'date': '2025-05-02'}]
+INFO 2025-04-27 11:59:36,734 views Response data: {'student': {'id': 3, 'name': 'Bob Smith', 'roll_number': 'S002'}, 'attendance': [{'id': 3, 'student': {'id': 3, 'name': 'Bob Smith', 'roll_number': 'S002'}, 'subject': {'id': 1, 'name': 'Math', 'code': 'MATH'}, 'date': '2025-04-27', 'is_present': True, 'checkin_time': '17:44:49.321735'}, {'id': 4, 'student': {'id': 3, 'name': 'Bob Smith', 'roll_number': 'S002'}, 'subject': {'id': 2, 'name': 'Physics', 'code': 'PHYSICS'}, 'date': '2025-04-27', 'is_present': True, 'checkin_time': '17:44:49.336969'}, {'id': 11, 'student': {'id': 3, 'name': 'Bob Smith', 'roll_number': 'S002'}, 'subject': {'id': 3, 'name': 'Chemistry', 'code': 'CHEMISTRY'}, 'date': '2025-04-29', 'is_present': False, 'checkin_time': '17:47:53.027810'}, {'id': 12, 'student': {'id': 3, 'name': 'Bob Smith', 'roll_number': 'S002'}, 'subject': {'id': 4, 'name': 'Biology', 'code': 'BIOLOGY'}, 'date': '2025-04-30', 'is_present': True, 'checkin_time': '17:47:53.046985'}, {'id': 35, 'student': {'id': 3, 'name': 'Bob Smith', 'roll_number': 'S002'}, 'subject': {'id': 5, 'name': 'English', 'code': 'ENGLISH'}, 'date': '2025-05-01', 'is_present': False, 'checkin_time': '17:53:06.201161'}, {'id': 36, 'student': {'id': 3, 'name': 'Bob Smith', 'roll_number': 'S002'}, 'subject': {'id': 6, 'name': 'History', 'code': 'HISTORY'}, 'date': '2025-05-02', 'is_present': True, 'checkin_time': '17:53:06.219772'}], 'marks': [{'id': 3, 'student': {'id': 3, 'name': 'Bob Smith', 'roll_number': 'S002'}, 'course': {'id': 1, 'name': 'Math', 'code': 'MATH'}, 'assessment_type': 'quiz', 'assessment_number': 1, 'marks': 70.0, 'max_marks': 100.0, 'date': '2025-04-27'}, {'id': 4, 'student': {'id': 3, 'name': 'Bob Smith', 'roll_number': 'S002'}, 'course': {'id': 2, 'name': 'Physics', 'code': 'PHYSICS'}, 'assessment_type': 'quiz', 'assessment_number': 1, 'marks': 82.0, 'max_marks': 100.0, 'date': '2025-04-27'}, {'id': 11, 'student': {'id': 3, 'name': 'Bob Smith', 'roll_number': 'S002'}, 'course': {'id': 3, 'name': 'Chemistry', 'code': 'CHEMISTRY'}, 'assessment_type': 'quiz', 'assessment_number': 1, 'marks': 68.0, 'max_marks': 100.0, 'date': '2025-04-29'}, {'id': 12, 'student': {'id': 3, 'name': 'Bob Smith', 'roll_number': 'S002'}, 'course': {'id': 4, 'name': 'Biology', 'code': 'BIOLOGY'}, 'assessment_type': 'quiz', 'assessment_number': 1, 'marks': 75.0, 'max_marks': 100.0, 'date': '2025-04-30'}, {'id': 35, 'student': {'id': 3, 'name': 'Bob Smith', 'roll_number': 'S002'}, 'course': {'id': 5, 'name': 'English', 'code': 'ENGLISH'}, 'assessment_type': 'quiz', 'assessment_number': 1, 'marks': 70.0, 'max_marks': 100.0, 'date': '2025-05-01'}, {'id': 36, 'student': {'id': 3, 'name': 'Bob Smith', 'roll_number': 'S002'}, 'course': {'id': 6, 'name': 'History', 'code': 'HISTORY'}, 'assessment_type': 'quiz', 'assessment_number': 1, 'marks': 78.0, 'max_marks': 100.0, 'date': '2025-05-02'}]}
+INFO 2025-04-27 11:59:36,735 basehttp "GET /api/students/search/S002/ HTTP/1.1" 200 2551
+INFO 2025-04-27 11:59:37,708 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-04-27 12:18:33,161 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-04-27 12:18:33,340 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 12:18:33,342 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-04-27 12:18:33,369 views Fetched 6 courses for student S001
+INFO 2025-04-27 12:18:33,377 basehttp "GET /api/student/courses/ HTTP/1.1" 200 257
+INFO 2025-04-27 12:18:33,406 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 12:18:33,432 views Fetched 6 courses for student S001
+INFO 2025-04-27 12:18:33,437 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-04-27 12:18:33,437 basehttp "GET /api/student/courses/ HTTP/1.1" 200 257
+ERROR 2025-04-27 12:18:34,466 views Error in StudentCourseRiskPredictionView: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+Traceback (most recent call last):
+  File "E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py", line 320, in get
+    StudentRisk.objects.update_or_create(
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 986, in update_or_create
+    obj, created = self.select_for_update().get_or_create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1303, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+ERROR 2025-04-27 12:18:34,470 log Internal Server Error: /api/student/course-prediction/1/
+ERROR 2025-04-27 12:18:34,471 basehttp "GET /api/student/course-prediction/1/ HTTP/1.1" 500 126
+ERROR 2025-04-27 12:18:35,366 views Error in StudentCourseRiskPredictionView: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+Traceback (most recent call last):
+  File "E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py", line 320, in get
+    StudentRisk.objects.update_or_create(
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 986, in update_or_create
+    obj, created = self.select_for_update().get_or_create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1303, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+ERROR 2025-04-27 12:18:35,369 log Internal Server Error: /api/student/course-prediction/2/
+ERROR 2025-04-27 12:18:35,370 basehttp "GET /api/student/course-prediction/2/ HTTP/1.1" 500 126
+ERROR 2025-04-27 12:18:35,429 views Error in StudentCourseRiskPredictionView: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+Traceback (most recent call last):
+  File "E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py", line 320, in get
+    StudentRisk.objects.update_or_create(
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 986, in update_or_create
+    obj, created = self.select_for_update().get_or_create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1303, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+ERROR 2025-04-27 12:18:35,432 log Internal Server Error: /api/student/course-prediction/1/
+ERROR 2025-04-27 12:18:35,433 basehttp "GET /api/student/course-prediction/1/ HTTP/1.1" 500 126
+ERROR 2025-04-27 12:18:36,320 views Error in StudentCourseRiskPredictionView: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+Traceback (most recent call last):
+  File "E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py", line 320, in get
+    StudentRisk.objects.update_or_create(
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 986, in update_or_create
+    obj, created = self.select_for_update().get_or_create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1303, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+ERROR 2025-04-27 12:18:36,323 log Internal Server Error: /api/student/course-prediction/3/
+ERROR 2025-04-27 12:18:36,323 basehttp "GET /api/student/course-prediction/3/ HTTP/1.1" 500 126
+ERROR 2025-04-27 12:18:36,335 views Error in StudentCourseRiskPredictionView: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+Traceback (most recent call last):
+  File "E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py", line 320, in get
+    StudentRisk.objects.update_or_create(
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 986, in update_or_create
+    obj, created = self.select_for_update().get_or_create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1303, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+ERROR 2025-04-27 12:18:36,339 log Internal Server Error: /api/student/course-prediction/2/
+ERROR 2025-04-27 12:18:36,340 basehttp "GET /api/student/course-prediction/2/ HTTP/1.1" 500 126
+ERROR 2025-04-27 12:18:37,240 views Error in StudentCourseRiskPredictionView: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+Traceback (most recent call last):
+  File "E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py", line 320, in get
+    StudentRisk.objects.update_or_create(
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 986, in update_or_create
+    obj, created = self.select_for_update().get_or_create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1303, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+ERROR 2025-04-27 12:18:37,245 log Internal Server Error: /api/student/course-prediction/4/
+ERROR 2025-04-27 12:18:37,246 basehttp "GET /api/student/course-prediction/4/ HTTP/1.1" 500 126
+ERROR 2025-04-27 12:18:37,291 views Error in StudentCourseRiskPredictionView: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+Traceback (most recent call last):
+  File "E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py", line 320, in get
+    StudentRisk.objects.update_or_create(
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 986, in update_or_create
+    obj, created = self.select_for_update().get_or_create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1303, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+ERROR 2025-04-27 12:18:37,296 log Internal Server Error: /api/student/course-prediction/3/
+ERROR 2025-04-27 12:18:37,301 basehttp "GET /api/student/course-prediction/3/ HTTP/1.1" 500 126
+ERROR 2025-04-27 12:18:38,154 views Error in StudentCourseRiskPredictionView: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+Traceback (most recent call last):
+  File "E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py", line 320, in get
+    StudentRisk.objects.update_or_create(
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 986, in update_or_create
+    obj, created = self.select_for_update().get_or_create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1303, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+ERROR 2025-04-27 12:18:38,161 log Internal Server Error: /api/student/course-prediction/5/
+ERROR 2025-04-27 12:18:38,164 basehttp "GET /api/student/course-prediction/5/ HTTP/1.1" 500 126
+ERROR 2025-04-27 12:18:38,214 views Error in StudentCourseRiskPredictionView: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+Traceback (most recent call last):
+  File "E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py", line 320, in get
+    StudentRisk.objects.update_or_create(
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 986, in update_or_create
+    obj, created = self.select_for_update().get_or_create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1303, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+ERROR 2025-04-27 12:18:38,218 log Internal Server Error: /api/student/course-prediction/4/
+ERROR 2025-04-27 12:18:38,219 basehttp "GET /api/student/course-prediction/4/ HTTP/1.1" 500 126
+ERROR 2025-04-27 12:18:39,104 views Error in StudentCourseRiskPredictionView: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+Traceback (most recent call last):
+  File "E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py", line 320, in get
+    StudentRisk.objects.update_or_create(
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 986, in update_or_create
+    obj, created = self.select_for_update().get_or_create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1303, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+ERROR 2025-04-27 12:18:39,109 log Internal Server Error: /api/student/course-prediction/6/
+ERROR 2025-04-27 12:18:39,111 basehttp "GET /api/student/course-prediction/6/ HTTP/1.1" 500 126
+ERROR 2025-04-27 12:18:39,148 views Error in StudentCourseRiskPredictionView: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+Traceback (most recent call last):
+  File "E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py", line 320, in get
+    StudentRisk.objects.update_or_create(
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 986, in update_or_create
+    obj, created = self.select_for_update().get_or_create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1303, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+ERROR 2025-04-27 12:18:39,151 log Internal Server Error: /api/student/course-prediction/5/
+ERROR 2025-04-27 12:18:39,152 basehttp "GET /api/student/course-prediction/5/ HTTP/1.1" 500 126
+ERROR 2025-04-27 12:18:40,075 views Error in StudentCourseRiskPredictionView: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+Traceback (most recent call last):
+  File "E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py", line 320, in get
+    StudentRisk.objects.update_or_create(
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 986, in update_or_create
+    obj, created = self.select_for_update().get_or_create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1303, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raifa\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1768, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'course' into field. Choices are: confidence, last_updated, risk_level, student, student_id
+ERROR 2025-04-27 12:18:40,080 log Internal Server Error: /api/student/course-prediction/6/
+ERROR 2025-04-27 12:18:40,080 basehttp "GET /api/student/course-prediction/6/ HTTP/1.1" 500 126
+INFO 2025-04-27 12:38:16,511 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 12:38:21,587 basehttp "OPTIONS /api/login/ HTTP/1.1" 200 0
+INFO 2025-04-27 12:38:22,097 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-04-27 12:38:22,216 basehttp "OPTIONS /api/my-attendance/ HTTP/1.1" 200 0
+INFO 2025-04-27 12:38:22,219 basehttp "OPTIONS /api/my-marks/ HTTP/1.1" 200 0
+INFO 2025-04-27 12:38:22,223 basehttp "OPTIONS /api/my-attendance/ HTTP/1.1" 200 0
+INFO 2025-04-27 12:38:22,225 basehttp "OPTIONS /api/my-marks/ HTTP/1.1" 200 0
+WARNING 2025-04-27 12:38:22,241 log Not Found: /api/student/courses/
+WARNING 2025-04-27 12:38:22,242 basehttp "GET /api/student/courses/ HTTP/1.1" 404 9029
+INFO 2025-04-27 12:38:22,275 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+WARNING 2025-04-27 12:38:22,293 log Not Found: /api/student/courses/
+WARNING 2025-04-27 12:38:22,299 basehttp "GET /api/student/courses/ HTTP/1.1" 404 9029
+INFO 2025-04-27 12:38:22,301 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-04-27 12:38:22,343 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 12:38:22,350 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-04-27 12:38:43,719 basehttp "POST /api/login/ HTTP/1.1" 200 107
+WARNING 2025-04-27 12:38:44,020 log Not Found: /api/student/courses/
+WARNING 2025-04-27 12:38:44,051 basehttp "GET /api/student/courses/ HTTP/1.1" 404 9029
+INFO 2025-04-27 12:38:44,089 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-04-27 12:38:44,090 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+WARNING 2025-04-27 12:38:44,151 log Not Found: /api/student/courses/
+WARNING 2025-04-27 12:38:44,164 basehttp "GET /api/student/courses/ HTTP/1.1" 404 9029
+INFO 2025-04-27 12:38:44,202 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 12:38:44,290 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-04-27 12:40:09,203 autoreload E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py changed, reloading.
+INFO 2025-04-27 12:40:09,984 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 12:40:28,007 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-04-27 12:40:28,253 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 12:40:28,258 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+WARNING 2025-04-27 12:40:28,292 log Not Found: /api/student/courses/
+WARNING 2025-04-27 12:40:28,293 basehttp "GET /api/student/courses/ HTTP/1.1" 404 9029
+INFO 2025-04-27 12:40:28,353 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+WARNING 2025-04-27 12:40:28,373 log Not Found: /api/student/courses/
+INFO 2025-04-27 12:40:28,374 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+WARNING 2025-04-27 12:40:28,375 basehttp "GET /api/student/courses/ HTTP/1.1" 404 9029
+INFO 2025-04-27 12:40:41,598 autoreload E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py changed, reloading.
+INFO 2025-04-27 12:40:42,458 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 12:43:29,089 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-04-27 12:43:29,310 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 12:43:29,311 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+WARNING 2025-04-27 12:43:29,355 log Not Found: /api/student/courses/
+WARNING 2025-04-27 12:43:29,356 basehttp "GET /api/student/courses/ HTTP/1.1" 404 9029
+INFO 2025-04-27 12:43:29,387 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+WARNING 2025-04-27 12:43:29,412 log Not Found: /api/student/courses/
+WARNING 2025-04-27 12:43:29,426 basehttp "GET /api/student/courses/ HTTP/1.1" 404 9029
+INFO 2025-04-27 12:43:29,432 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 12:44:28,010 autoreload E:\suresh\ML-project\Backend\student_management\risk_analysis\urls.py changed, reloading.
+INFO 2025-04-27 12:44:28,883 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 12:44:30,878 autoreload E:\suresh\ML-project\Backend\student_management\risk_analysis\urls.py changed, reloading.
+INFO 2025-04-27 12:44:31,741 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 12:44:34,700 autoreload E:\suresh\ML-project\Backend\student_management\risk_analysis\urls.py changed, reloading.
+INFO 2025-04-27 12:44:35,519 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 12:44:38,470 autoreload E:\suresh\ML-project\Backend\student_management\risk_analysis\urls.py changed, reloading.
+INFO 2025-04-27 12:44:39,251 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 12:44:44,698 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-04-27 12:44:44,868 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 12:44:44,874 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-04-27 12:44:44,893 views Fetched 6 courses for student S001
+INFO 2025-04-27 12:44:44,901 basehttp "GET /api/student/courses/ HTTP/1.1" 200 257
+INFO 2025-04-27 12:44:44,931 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 12:44:44,961 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-04-27 12:44:44,974 views Fetched 6 courses for student S001
+INFO 2025-04-27 12:44:44,977 basehttp "GET /api/student/courses/ HTTP/1.1" 200 257
+INFO 2025-04-27 12:44:46,144 basehttp "GET /api/student/course-prediction/1/ HTTP/1.1" 200 342
+INFO 2025-04-27 12:44:47,098 basehttp "GET /api/student/course-prediction/2/ HTTP/1.1" 200 349
+INFO 2025-04-27 12:44:47,129 basehttp "GET /api/student/course-prediction/1/ HTTP/1.1" 200 342
+INFO 2025-04-27 12:44:48,139 basehttp "GET /api/student/course-prediction/2/ HTTP/1.1" 200 349
+INFO 2025-04-27 12:44:48,155 basehttp "GET /api/student/course-prediction/3/ HTTP/1.1" 200 353
+INFO 2025-04-27 12:44:49,065 basehttp "GET /api/student/course-prediction/4/ HTTP/1.1" 200 348
+INFO 2025-04-27 12:44:49,081 basehttp "GET /api/student/course-prediction/3/ HTTP/1.1" 200 353
+INFO 2025-04-27 12:44:49,970 basehttp "GET /api/student/course-prediction/5/ HTTP/1.1" 200 348
+INFO 2025-04-27 12:44:50,024 basehttp "GET /api/student/course-prediction/4/ HTTP/1.1" 200 348
+INFO 2025-04-27 12:44:50,914 basehttp "GET /api/student/course-prediction/6/ HTTP/1.1" 200 348
+INFO 2025-04-27 12:44:50,915 basehttp "GET /api/student/course-prediction/5/ HTTP/1.1" 200 348
+INFO 2025-04-27 12:44:51,886 basehttp "GET /api/student/course-prediction/6/ HTTP/1.1" 200 348
+INFO 2025-04-27 12:48:01,971 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 12:48:42,490 autoreload E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py changed, reloading.
+INFO 2025-04-27 12:48:43,513 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 12:49:19,347 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-04-27 12:49:19,561 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-04-27 12:49:19,589 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 12:49:19,617 views Fetched 6 courses for student S001
+INFO 2025-04-27 12:49:19,628 basehttp "GET /api/student/courses/ HTTP/1.1" 200 257
+INFO 2025-04-27 12:49:19,663 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-04-27 12:49:19,671 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 12:49:19,704 views Fetched 6 courses for student S001
+INFO 2025-04-27 12:49:19,712 basehttp "GET /api/student/courses/ HTTP/1.1" 200 257
+INFO 2025-04-27 12:49:20,809 basehttp "GET /api/student/course-prediction/1/ HTTP/1.1" 200 342
+INFO 2025-04-27 12:49:21,736 basehttp "GET /api/student/course-prediction/2/ HTTP/1.1" 200 349
+INFO 2025-04-27 12:49:21,762 basehttp "GET /api/student/course-prediction/1/ HTTP/1.1" 200 342
+INFO 2025-04-27 12:49:22,672 basehttp "GET /api/student/course-prediction/3/ HTTP/1.1" 200 353
+INFO 2025-04-27 12:49:22,720 basehttp "GET /api/student/course-prediction/2/ HTTP/1.1" 200 349
+INFO 2025-04-27 12:49:23,576 basehttp "GET /api/student/course-prediction/4/ HTTP/1.1" 200 348
+INFO 2025-04-27 12:49:23,780 basehttp "GET /api/student/course-prediction/3/ HTTP/1.1" 200 353
+INFO 2025-04-27 12:49:24,468 basehttp "GET /api/student/course-prediction/5/ HTTP/1.1" 200 348
+INFO 2025-04-27 12:49:24,737 basehttp "GET /api/student/course-prediction/4/ HTTP/1.1" 200 348
+INFO 2025-04-27 12:49:25,416 basehttp "GET /api/student/course-prediction/6/ HTTP/1.1" 200 348
+INFO 2025-04-27 12:49:25,682 basehttp "GET /api/student/course-prediction/5/ HTTP/1.1" 200 348
+INFO 2025-04-27 12:49:26,625 basehttp "GET /api/student/course-prediction/6/ HTTP/1.1" 200 348
