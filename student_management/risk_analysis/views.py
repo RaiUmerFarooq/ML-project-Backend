@@ -41,7 +41,7 @@ class TeacherStudentRiskAnalysis(APIView):
                 "gpa": float(gpa)
             }
 
-            HF_API_URL = "https://raiumer-ppas-model-api.hf.space/predict/"
+            HF_API_URL = "https://ahmadabdulkhaliq-ppas-model-api.hf.space/predict/"
             headers = {"Content-Type": "application/json"}
             response = requests.post(HF_API_URL, headers=headers, json=payload)
 
@@ -116,7 +116,7 @@ class StudentRiskAnalysis(APIView):
                 "gpa": float(gpa)
             }
 
-            HF_API_URL = "https://raiumer-ppas-model-api.hf.space/predict/"
+            HF_API_URL = "https://ahmadabdulkhaliq-ppas-model-api.hf.space/predict/"
             headers = {"Content-Type": "application/json"}
             response = requests.post(HF_API_URL, headers=headers, json=payload)
 
@@ -193,7 +193,7 @@ class CustomRiskAnalysis(APIView):
             except Student.DoesNotExist:
                 return Response({"error": "Student not found"}, status=status.HTTP_404_NOT_FOUND)
 
-            HF_API_URL = "https://raiumer-ppas-model-api.hf.space/predict/"
+            HF_API_URL = "https://ahmadabdulkhaliq-ppas-model-api.hf.space/predict/"
             headers = {"Content-Type": "application/json"}
             response = requests.post(HF_API_URL, headers=headers, json=payload)
 
@@ -308,7 +308,7 @@ class StudentCourseRiskPredictionView(APIView):
                 "gpa": float(gpa)
             }
 
-            HF_API_URL = "https://raiumer-ppas-model-api.hf.space/predict/"
+            HF_API_URL = "https://ahmadabdulkhaliq-ppas-model-api.hf.space/predict/"
             headers = {"Content-Type": "application/json"}
             response = requests.post(HF_API_URL, headers=headers, json=payload)
 
@@ -384,7 +384,7 @@ class StudentAllCoursesRiskAnalysisView(APIView):
                 "gpa": float(gpa)
             }
 
-            HF_API_URL = "https://raiumer-ppas-model-api.hf.space/predict/"
+            HF_API_URL = "https://ahmadabdulkhaliq-ppas-model-api.hf.space/predict/"
             headers = {"Content-Type": "application/json"}
             response = requests.post(HF_API_URL, headers=headers, json=payload)
 

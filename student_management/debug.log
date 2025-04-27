@@ -2787,3 +2787,27 @@ INFO 2025-04-27 12:44:50,024 basehttp "GET /api/student/course-prediction/4/ HTT
 INFO 2025-04-27 12:44:50,914 basehttp "GET /api/student/course-prediction/6/ HTTP/1.1" 200 348
 INFO 2025-04-27 12:44:50,915 basehttp "GET /api/student/course-prediction/5/ HTTP/1.1" 200 348
 INFO 2025-04-27 12:44:51,886 basehttp "GET /api/student/course-prediction/6/ HTTP/1.1" 200 348
+INFO 2025-04-27 12:48:01,971 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 12:48:42,490 autoreload E:\suresh\ML-project\Backend\student_management\risk_analysis\views.py changed, reloading.
+INFO 2025-04-27 12:48:43,513 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 12:49:19,347 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-04-27 12:49:19,561 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-04-27 12:49:19,589 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 12:49:19,617 views Fetched 6 courses for student S001
+INFO 2025-04-27 12:49:19,628 basehttp "GET /api/student/courses/ HTTP/1.1" 200 257
+INFO 2025-04-27 12:49:19,663 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-04-27 12:49:19,671 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 12:49:19,704 views Fetched 6 courses for student S001
+INFO 2025-04-27 12:49:19,712 basehttp "GET /api/student/courses/ HTTP/1.1" 200 257
+INFO 2025-04-27 12:49:20,809 basehttp "GET /api/student/course-prediction/1/ HTTP/1.1" 200 342
+INFO 2025-04-27 12:49:21,736 basehttp "GET /api/student/course-prediction/2/ HTTP/1.1" 200 349
+INFO 2025-04-27 12:49:21,762 basehttp "GET /api/student/course-prediction/1/ HTTP/1.1" 200 342
+INFO 2025-04-27 12:49:22,672 basehttp "GET /api/student/course-prediction/3/ HTTP/1.1" 200 353
+INFO 2025-04-27 12:49:22,720 basehttp "GET /api/student/course-prediction/2/ HTTP/1.1" 200 349
+INFO 2025-04-27 12:49:23,576 basehttp "GET /api/student/course-prediction/4/ HTTP/1.1" 200 348
+INFO 2025-04-27 12:49:23,780 basehttp "GET /api/student/course-prediction/3/ HTTP/1.1" 200 353
+INFO 2025-04-27 12:49:24,468 basehttp "GET /api/student/course-prediction/5/ HTTP/1.1" 200 348
+INFO 2025-04-27 12:49:24,737 basehttp "GET /api/student/course-prediction/4/ HTTP/1.1" 200 348
+INFO 2025-04-27 12:49:25,416 basehttp "GET /api/student/course-prediction/6/ HTTP/1.1" 200 348
+INFO 2025-04-27 12:49:25,682 basehttp "GET /api/student/course-prediction/5/ HTTP/1.1" 200 348
+INFO 2025-04-27 12:49:26,625 basehttp "GET /api/student/course-prediction/6/ HTTP/1.1" 200 348
