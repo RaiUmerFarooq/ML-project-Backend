@@ -19,4 +19,5 @@ urlpatterns = [
     path('logout/', views_auth.LogoutView.as_view(), name='logout'),
     path('students/all-details/', views.AllStudentsDetailsView.as_view(), name='all-students-details'),
     path('students/upload-csv/', views.StudentCSVUploadView.as_view(), name='student-csv-upload'),
+    path('my-data/export-csv/', views.StudentOwnDataCSVExportView.as_view(), name='student-own-data-csv-export'),  
 ]

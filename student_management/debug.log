@@ -1508,3 +1508,28 @@ INFO 2025-04-26 17:53:50,198 views Found 72 marks records
 INFO 2025-04-26 17:53:50,199 views Serialized marks data
 INFO 2025-04-26 17:53:50,201 basehttp "GET /api/all-attendance/ HTTP/1.1" 200 13960
 INFO 2025-04-26 17:53:50,213 basehttp "GET /api/all-marks/ HTTP/1.1" 200 15826
+INFO 2025-04-27 10:30:05,522 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 10:30:55,455 basehttp "OPTIONS /api/login/ HTTP/1.1" 200 0
+INFO 2025-04-27 10:30:55,962 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-04-27 10:30:56,087 basehttp "OPTIONS /api/my-attendance/ HTTP/1.1" 200 0
+INFO 2025-04-27 10:30:56,088 basehttp "OPTIONS /api/my-marks/ HTTP/1.1" 200 0
+INFO 2025-04-27 10:30:56,090 basehttp "OPTIONS /api/my-attendance/ HTTP/1.1" 200 0
+INFO 2025-04-27 10:30:56,092 basehttp "OPTIONS /api/my-marks/ HTTP/1.1" 200 0
+INFO 2025-04-27 10:30:56,136 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 10:30:56,136 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-04-27 10:30:56,176 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 10:30:56,176 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-04-27 10:33:52,456 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-04-27 10:33:52,456 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-04-27 10:33:56,323 basehttp "OPTIONS /api/my-data/export-csv/ HTTP/1.1" 200 0
+INFO 2025-04-27 10:33:56,359 views Generating CSV export for user: student1
+INFO 2025-04-27 10:33:56,372 views CSV export generated successfully for S001
+INFO 2025-04-27 10:33:56,376 basehttp "GET /api/my-data/export-csv/ HTTP/1.1" 200 828
+INFO 2025-04-27 10:38:11,274 autoreload E:\suresh\ML-project\Backend\student_management\attendance\views.py changed, reloading.
+INFO 2025-04-27 10:38:13,073 autoreload Watching for file changes with StatReloader
+INFO 2025-04-27 10:38:16,629 views Generating CSV export for user: student1
+INFO 2025-04-27 10:38:16,640 views Fetched 6 attendance records and 6 marks records for S001
+INFO 2025-04-27 10:38:16,642 views CSV export generated successfully for S001
+INFO 2025-04-27 10:38:16,644 basehttp "GET /api/my-data/export-csv/ HTTP/1.1" 200 886
+INFO 2025-04-27 10:42:39,743 autoreload E:\suresh\ML-project\Backend\student_management\attendance\urls.py changed, reloading.
+INFO 2025-04-27 10:42:40,556 autoreload Watching for file changes with StatReloader
