@@ -372,7 +372,6 @@ class StudentCSVUploadView(APIView):
             logger.error(f"Error in StudentCSVUploadView: {str(e)}", exc_info=True)
             return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
-# Updated view for student to export their own data as CSV
 class StudentOwnDataCSVExportView(APIView):
     permission_classes = [IsAuthenticated]
     authentication_classes = [TokenAuthentication]
@@ -466,4 +465,108 @@ class StudentOwnDataCSVExportView(APIView):
             return Response({"error": "Student profile not found"}, status=status.HTTP_404_NOT_FOUND)
         except Exception as e:
             logger.error(f"Error in StudentOwnDataCSVExportView: {str(e)}", exc_info=True)
+            return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+class TeacherStudentDataCSVExportView(APIView):
+    permission_classes = [IsTeacher]
+    # authentication_classes = [TokenAuthentication]
+
+    def get(self, request, roll_number=None):
+        try:
+            logger.info(f"Generating CSV export for teacher: {request.user.username}, roll_number: {roll_number}")
+            
+            # Create CSV response
+            response = HttpResponse(content_type='text/csv')
+            if roll_number:
+                response['Content-Disposition'] = f'attachment; filename="{roll_number}_data.csv"'
+            else:
+                response['Content-Disposition'] = 'attachment; filename="all_students_data.csv"'
+
+            # Define CSV writer and headers
+            writer = csv.writer(response)
+            writer.writerow([
+                'username', 'first_name', 'last_name', 'roll_number', 'name',
+                'subject', 'attendance_date', 'is_present', 'checkin_time', 'attendance_percentage',
+                'marks_course', 'assessment_type', 'assessment_number', 'marks', 'max_marks', 'marks_date'
+            ])
+
+            # Determine students to export
+            if roll_number:
+                try:
+                    student = Student.objects.get(roll_number=roll_number)
+                    students = [student]
+                except Student.DoesNotExist:
+                    logger.warning(f"Student with roll_number {roll_number} not found")
+                    return Response({"error": "Student not found"}, status=status.HTTP_404_NOT_FOUND)
+            else:
+                students = Student.objects.all().select_related('user')
+
+            logger.info(f"Exporting data for {len(students)} student(s)")
+
+            for student in students:
+                # Fetch attendance and marks
+                attendance_records = Attendance.objects.filter(student=student).select_related('subject')
+                marks_records = Marks.objects.filter(student=student).select_related('course')
+
+                # Calculate overall attendance percentage
+                total_attendance = attendance_records.count()
+                present_count = attendance_records.filter(is_present=True).count()
+                attendance_percentage = round((present_count / total_attendance) * 100, 2) if total_attendance > 0 else 0.0
+
+                logger.info(f"Fetched {len(attendance_records)} attendance records and {len(marks_records)} marks records for {student.roll_number}")
+
+                # If no attendance or marks, include student info only
+                if not attendance_records and not marks_records:
+                    writer.writerow([
+                        student.user.username,
+                        student.user.first_name,
+                        student.user.last_name,
+                        student.roll_number,
+                        student.name,
+                        '', '', '', '', attendance_percentage,
+                        '', '', '', '', ''
+                    ])
+                else:
+                    # Handle attendance and marks pairing
+                    max_records = max(len(attendance_records), len(marks_records))
+                    for i in range(max_records):
+                        row = [
+                            student.user.username,
+                            student.user.first_name,
+                            student.user.last_name,
+                            student.roll_number,
+                            student.name
+                        ]
+                        # Attendance data
+                        if i < len(attendance_records):
+                            att = attendance_records[i]
+                            checkin_time = att.checkin_time.strftime('%H:%M:%S') if att.checkin_time else ''
+                            row.extend([
+                                att.subject.name,
+                                att.date.strftime('%Y-%m-%d'),
+                                '1' if att.is_present else '0',
+                                checkin_time,
+                                attendance_percentage
+                            ])
+                        else:
+                            row.extend(['', '', '', '', attendance_percentage])
+                        # Marks data
+                        if i < len(marks_records):
+                            mark = marks_records[i]
+                            row.extend([
+                                mark.course.name,
+                                mark.assessment_type,
+                                mark.assessment_number,
+                                mark.marks,
+                                mark.max_marks,
+                                mark.date.strftime('%Y-%m-%d')
+                            ])
+                        else:
+                            row.extend(['', '', '', '', ''])
+                        writer.writerow(row)
+
+            logger.info(f"CSV export generated successfully for {'all students' if not roll_number else roll_number}")
+            return response
+        except Exception as e:
+            logger.error(f"Error in TeacherStudentDataCSVExportView: {str(e)}", exc_info=True)
             return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)

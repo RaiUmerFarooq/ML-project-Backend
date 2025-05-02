@@ -2811,3 +2811,130 @@ INFO 2025-04-27 12:49:24,737 basehttp "GET /api/student/course-prediction/4/ HTT
 INFO 2025-04-27 12:49:25,416 basehttp "GET /api/student/course-prediction/6/ HTTP/1.1" 200 348
 INFO 2025-04-27 12:49:25,682 basehttp "GET /api/student/course-prediction/5/ HTTP/1.1" 200 348
 INFO 2025-04-27 12:49:26,625 basehttp "GET /api/student/course-prediction/6/ HTTP/1.1" 200 348
+INFO 2025-05-02 11:53:40,207 autoreload Watching for file changes with StatReloader
+INFO 2025-05-02 11:54:46,043 basehttp "OPTIONS /api/login/ HTTP/1.1" 200 0
+INFO 2025-05-02 11:54:48,082 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-05-02 11:54:48,188 basehttp "OPTIONS /api/students/all-details/ HTTP/1.1" 200 0
+INFO 2025-05-02 11:54:48,188 basehttp "OPTIONS /api/students/all-details/ HTTP/1.1" 200 0
+INFO 2025-05-02 11:54:48,204 views Fetching all students with details
+INFO 2025-05-02 11:54:48,219 views Found 12 students
+INFO 2025-05-02 11:54:48,523 views Serialized all students data
+INFO 2025-05-02 11:54:48,525 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-02 11:54:48,539 views Fetching all students with details
+INFO 2025-05-02 11:54:48,541 views Found 12 students
+INFO 2025-05-02 11:54:48,558 basehttp "OPTIONS /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 0
+INFO 2025-05-02 11:54:48,566 basehttp "OPTIONS /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 0
+INFO 2025-05-02 11:54:48,571 basehttp "OPTIONS /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 0
+INFO 2025-05-02 11:54:48,575 basehttp "OPTIONS /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 0
+INFO 2025-05-02 11:54:48,580 basehttp "OPTIONS /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 0
+INFO 2025-05-02 11:54:48,587 basehttp "OPTIONS /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 0
+INFO 2025-05-02 11:54:48,592 basehttp "OPTIONS /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 0
+INFO 2025-05-02 11:54:48,598 basehttp "OPTIONS /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 0
+INFO 2025-05-02 11:54:48,602 basehttp "OPTIONS /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 0
+INFO 2025-05-02 11:54:48,609 basehttp "OPTIONS /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 0
+INFO 2025-05-02 11:54:48,613 basehttp "OPTIONS /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 0
+INFO 2025-05-02 11:54:48,619 basehttp "OPTIONS /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 0
+INFO 2025-05-02 11:54:48,853 views Serialized all students data
+INFO 2025-05-02 11:54:48,855 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-02 11:55:01,651 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-02 11:55:01,652 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-02 11:55:01,652 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-02 11:55:01,653 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-02 11:55:01,653 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-02 11:55:01,653 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-02 11:55:02,592 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-02 11:55:02,608 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-02 11:55:02,637 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-02 11:55:02,640 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-02 11:55:02,648 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-02 11:55:03,513 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-02 11:55:03,560 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-02 11:55:03,566 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-02 11:55:03,594 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-02 11:55:03,614 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-02 11:55:03,614 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-02 11:55:04,470 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-02 11:55:04,486 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-02 11:55:04,532 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-02 11:55:04,552 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-02 11:55:04,575 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-02 11:55:04,592 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-02 11:55:05,432 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-02 11:56:50,632 views Fetching all students with details
+INFO 2025-05-02 11:56:50,635 views Found 12 students
+INFO 2025-05-02 11:56:51,129 views Serialized all students data
+INFO 2025-05-02 11:56:51,133 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-02 11:56:52,262 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-02 11:56:52,263 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-02 11:56:52,266 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-02 11:56:52,276 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-02 11:56:52,293 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-02 11:56:52,318 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-02 11:56:53,289 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-02 11:56:53,292 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-02 11:56:53,318 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-02 11:56:53,318 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-02 11:56:53,333 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-02 11:56:53,333 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-02 12:01:50,312 basehttp "OPTIONS /api/teacher/students/export-csv/S001/ HTTP/1.1" 200 0
+WARNING 2025-05-02 12:01:50,339 log Unauthorized: /api/teacher/students/export-csv/S001/
+WARNING 2025-05-02 12:01:50,340 basehttp "GET /api/teacher/students/export-csv/S001/ HTTP/1.1" 401 27
+INFO 2025-05-02 12:02:33,086 autoreload E:\suresh\ML-project\Backend\student_management\attendance\views.py changed, reloading.
+INFO 2025-05-02 12:02:34,156 autoreload Watching for file changes with StatReloader
+WARNING 2025-05-02 12:02:53,751 log Unauthorized: /api/teacher/students/export-csv/S001/
+WARNING 2025-05-02 12:02:53,752 basehttp "GET /api/teacher/students/export-csv/S001/ HTTP/1.1" 401 27
+INFO 2025-05-02 12:04:31,036 views Generating CSV export for teacher: teacher1, roll_number: S001
+INFO 2025-05-02 12:04:31,037 views Exporting data for 1 student(s)
+INFO 2025-05-02 12:04:31,046 views Fetched 6 attendance records and 6 marks records for S001
+INFO 2025-05-02 12:04:31,048 views CSV export generated successfully for S001
+INFO 2025-05-02 12:04:31,050 basehttp "GET /api/teacher/students/export-csv/S001/ HTTP/1.1" 200 886
+INFO 2025-05-02 12:04:43,659 basehttp "OPTIONS /api/teacher/students/export-csv/ HTTP/1.1" 200 0
+INFO 2025-05-02 12:04:43,695 views Generating CSV export for teacher: teacher1, roll_number: None
+INFO 2025-05-02 12:04:43,700 views Exporting data for 12 student(s)
+INFO 2025-05-02 12:04:43,714 views Fetched 6 attendance records and 6 marks records for S001
+INFO 2025-05-02 12:04:43,728 views Fetched 6 attendance records and 6 marks records for S002
+INFO 2025-05-02 12:04:43,742 views Fetched 6 attendance records and 6 marks records for S003
+INFO 2025-05-02 12:04:43,755 views Fetched 6 attendance records and 6 marks records for S004
+INFO 2025-05-02 12:04:43,767 views Fetched 6 attendance records and 6 marks records for S005
+INFO 2025-05-02 12:04:43,782 views Fetched 6 attendance records and 6 marks records for S006
+INFO 2025-05-02 12:04:43,793 views Fetched 6 attendance records and 6 marks records for S007
+INFO 2025-05-02 12:04:43,806 views Fetched 6 attendance records and 6 marks records for S008
+INFO 2025-05-02 12:04:43,817 views Fetched 6 attendance records and 6 marks records for S009
+INFO 2025-05-02 12:04:43,834 views Fetched 6 attendance records and 6 marks records for S010
+INFO 2025-05-02 12:04:43,846 views Fetched 6 attendance records and 6 marks records for S011
+INFO 2025-05-02 12:04:43,859 views Fetched 6 attendance records and 6 marks records for S012
+INFO 2025-05-02 12:04:43,861 views CSV export generated successfully for all students
+INFO 2025-05-02 12:04:43,866 basehttp "GET /api/teacher/students/export-csv/ HTTP/1.1" 200 8094
+INFO 2025-05-02 12:05:22,700 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-05-02 12:05:22,851 basehttp "OPTIONS /api/my-attendance/ HTTP/1.1" 200 0
+INFO 2025-05-02 12:05:22,855 basehttp "OPTIONS /api/my-marks/ HTTP/1.1" 200 0
+INFO 2025-05-02 12:05:22,859 basehttp "OPTIONS /api/student/courses/ HTTP/1.1" 200 0
+INFO 2025-05-02 12:05:22,863 basehttp "OPTIONS /api/my-attendance/ HTTP/1.1" 200 0
+INFO 2025-05-02 12:05:22,868 basehttp "OPTIONS /api/my-marks/ HTTP/1.1" 200 0
+INFO 2025-05-02 12:05:22,874 basehttp "OPTIONS /api/student/courses/ HTTP/1.1" 200 0
+INFO 2025-05-02 12:05:22,941 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-05-02 12:05:23,004 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-05-02 12:05:23,036 views Fetched 6 courses for student S001
+INFO 2025-05-02 12:05:23,041 basehttp "GET /api/student/courses/ HTTP/1.1" 200 257
+INFO 2025-05-02 12:05:23,095 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-05-02 12:05:23,148 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-05-02 12:05:23,162 basehttp "OPTIONS /api/student/course-prediction/1/ HTTP/1.1" 200 0
+INFO 2025-05-02 12:05:23,191 views Fetched 6 courses for student S001
+INFO 2025-05-02 12:05:23,196 basehttp "GET /api/student/courses/ HTTP/1.1" 200 257
+INFO 2025-05-02 12:05:24,259 basehttp "GET /api/student/course-prediction/1/ HTTP/1.1" 200 342
+INFO 2025-05-02 12:05:24,274 basehttp "OPTIONS /api/student/course-prediction/2/ HTTP/1.1" 200 0
+INFO 2025-05-02 12:05:25,225 basehttp "GET /api/student/course-prediction/1/ HTTP/1.1" 200 342
+INFO 2025-05-02 12:05:25,262 basehttp "GET /api/student/course-prediction/2/ HTTP/1.1" 200 349
+INFO 2025-05-02 12:05:25,277 basehttp "OPTIONS /api/student/course-prediction/3/ HTTP/1.1" 200 0
+INFO 2025-05-02 12:05:26,314 basehttp "GET /api/student/course-prediction/2/ HTTP/1.1" 200 349
+INFO 2025-05-02 12:05:26,315 basehttp "GET /api/student/course-prediction/3/ HTTP/1.1" 200 353
+INFO 2025-05-02 12:05:26,335 basehttp "OPTIONS /api/student/course-prediction/4/ HTTP/1.1" 200 0
+INFO 2025-05-02 12:05:27,265 basehttp "GET /api/student/course-prediction/4/ HTTP/1.1" 200 348
+INFO 2025-05-02 12:05:27,272 basehttp "GET /api/student/course-prediction/3/ HTTP/1.1" 200 353
+INFO 2025-05-02 12:05:27,283 basehttp "OPTIONS /api/student/course-prediction/5/ HTTP/1.1" 200 0
+INFO 2025-05-02 12:05:28,221 basehttp "GET /api/student/course-prediction/4/ HTTP/1.1" 200 348
+INFO 2025-05-02 12:05:28,238 basehttp "GET /api/student/course-prediction/5/ HTTP/1.1" 200 348
+INFO 2025-05-02 12:05:28,255 basehttp "OPTIONS /api/student/course-prediction/6/ HTTP/1.1" 200 0
+INFO 2025-05-02 12:05:29,178 basehttp "GET /api/student/course-prediction/5/ HTTP/1.1" 200 348
+INFO 2025-05-02 12:05:29,189 basehttp "GET /api/student/course-prediction/6/ HTTP/1.1" 200 348
+INFO 2025-05-02 12:05:30,135 basehttp "GET /api/student/course-prediction/6/ HTTP/1.1" 200 348
