@@ -22,4 +22,5 @@ urlpatterns = [
     path('my-data/export-csv/', views.StudentOwnDataCSVExportView.as_view(), name='student-own-data-csv-export'),
     path('teacher/students/export-csv/', views.TeacherStudentDataCSVExportView.as_view(), name='teacher-all-students-data-csv-export'),
     path('teacher/students/export-csv/<str:roll_number>/', views.TeacherStudentDataCSVExportView.as_view(), name='teacher-student-data-csv-export'),
+    path('teacher/manual-student-data/', views.ManualStudentDataEntryView.as_view(), name='manual-student-data-entry'),
 ]
