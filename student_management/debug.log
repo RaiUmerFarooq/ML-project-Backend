@@ -2938,3 +2938,1796 @@ INFO 2025-05-02 12:05:28,255 basehttp "OPTIONS /api/student/course-prediction/6/
 INFO 2025-05-02 12:05:29,178 basehttp "GET /api/student/course-prediction/5/ HTTP/1.1" 200 348
 INFO 2025-05-02 12:05:29,189 basehttp "GET /api/student/course-prediction/6/ HTTP/1.1" 200 348
 INFO 2025-05-02 12:05:30,135 basehttp "GET /api/student/course-prediction/6/ HTTP/1.1" 200 348
+INFO 2025-05-08 17:50:47,298 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 17:52:09,965 basehttp "OPTIONS /api/login/ HTTP/1.1" 200 0
+INFO 2025-05-08 17:52:10,872 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-05-08 17:52:10,972 basehttp "OPTIONS /api/students/all-details/ HTTP/1.1" 200 0
+INFO 2025-05-08 17:52:10,973 basehttp "OPTIONS /api/students/all-details/ HTTP/1.1" 200 0
+INFO 2025-05-08 17:52:10,991 views Fetching all students with details
+INFO 2025-05-08 17:52:11,007 views Found 12 students
+INFO 2025-05-08 17:52:11,337 views Serialized all students data
+INFO 2025-05-08 17:52:11,340 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 17:52:11,353 views Fetching all students with details
+INFO 2025-05-08 17:52:11,355 views Found 12 students
+INFO 2025-05-08 17:52:11,375 basehttp "OPTIONS /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 0
+INFO 2025-05-08 17:52:11,383 basehttp "OPTIONS /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 0
+INFO 2025-05-08 17:52:11,388 basehttp "OPTIONS /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 0
+INFO 2025-05-08 17:52:11,391 basehttp "OPTIONS /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 0
+INFO 2025-05-08 17:52:11,395 basehttp "OPTIONS /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 0
+INFO 2025-05-08 17:52:11,399 basehttp "OPTIONS /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 0
+INFO 2025-05-08 17:52:11,406 basehttp "OPTIONS /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 0
+INFO 2025-05-08 17:52:11,410 basehttp "OPTIONS /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 0
+INFO 2025-05-08 17:52:11,414 basehttp "OPTIONS /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 0
+INFO 2025-05-08 17:52:11,421 basehttp "OPTIONS /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 0
+INFO 2025-05-08 17:52:11,426 basehttp "OPTIONS /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 0
+INFO 2025-05-08 17:52:11,430 basehttp "OPTIONS /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 0
+INFO 2025-05-08 17:52:11,626 views Serialized all students data
+INFO 2025-05-08 17:52:11,628 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 17:52:13,004 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 17:52:13,004 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 17:52:13,004 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 17:52:13,005 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 17:52:13,005 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 17:52:13,006 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 17:52:13,913 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 17:52:13,921 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 17:52:13,935 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 17:52:13,958 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 17:52:13,968 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 17:52:13,969 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 17:52:14,847 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 17:52:15,084 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 17:52:15,084 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 17:52:15,084 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 17:52:15,084 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 17:52:15,084 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 17:52:15,818 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 17:52:16,029 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 17:52:16,044 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 17:52:16,839 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 17:52:16,861 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 17:52:16,862 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:01:03,955 views Fetching all students with details
+INFO 2025-05-08 18:01:03,956 views Found 12 students
+INFO 2025-05-08 18:01:04,135 views Serialized all students data
+INFO 2025-05-08 18:01:04,138 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:01:05,212 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:01:05,260 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:01:05,428 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:01:05,433 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:01:05,498 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:01:05,499 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:06,563 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:01:06,592 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:06,761 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:01:06,763 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:01:06,821 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:06,821 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:06,921 views Fetching all students with details
+INFO 2025-05-08 18:01:06,924 views Found 12 students
+INFO 2025-05-08 18:01:07,159 views Serialized all students data
+INFO 2025-05-08 18:01:07,161 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:01:07,173 views Fetching all students with details
+INFO 2025-05-08 18:01:07,175 views Found 12 students
+INFO 2025-05-08 18:01:07,394 views Serialized all students data
+INFO 2025-05-08 18:01:07,396 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:01:08,072 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:01:08,077 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:01:08,121 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:01:08,121 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:01:08,326 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:01:08,339 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:09,054 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:01:09,132 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:01:09,134 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:09,134 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:01:09,275 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:09,360 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:10,004 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:01:10,026 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:01:10,100 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:01:10,100 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:01:10,458 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:10,568 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:01:11,243 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:11,244 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:01:11,244 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:01:11,264 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:01:11,685 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:12,102 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:37,986 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-05-08 18:01:38,055 views Fetching all students with details
+INFO 2025-05-08 18:01:38,057 views Found 12 students
+INFO 2025-05-08 18:01:38,291 views Serialized all students data
+INFO 2025-05-08 18:01:38,294 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:01:38,307 views Fetching all students with details
+INFO 2025-05-08 18:01:38,309 views Found 12 students
+INFO 2025-05-08 18:01:38,527 views Serialized all students data
+INFO 2025-05-08 18:01:38,529 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:01:39,218 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:01:39,239 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:01:39,266 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:01:39,273 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:01:39,285 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:01:39,421 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:40,171 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:01:40,171 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:01:40,171 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:40,202 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:01:40,213 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:40,333 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:41,182 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:01:41,182 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:01:41,183 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:01:41,249 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:41,329 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:01:41,329 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:01:42,083 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:01:42,083 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:42,099 views Fetching all students with details
+INFO 2025-05-08 18:01:42,101 views Found 12 students
+INFO 2025-05-08 18:01:42,106 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:01:42,134 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:01:42,233 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:42,239 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:42,391 views Serialized all students data
+INFO 2025-05-08 18:01:42,394 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:01:42,407 views Fetching all students with details
+INFO 2025-05-08 18:01:42,408 views Found 12 students
+INFO 2025-05-08 18:01:42,759 views Serialized all students data
+INFO 2025-05-08 18:01:42,763 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:01:43,343 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:01:43,344 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:01:43,374 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:01:43,382 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:01:43,385 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:01:43,655 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:44,295 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:44,296 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:01:44,304 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:44,304 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:01:44,585 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:45,186 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:01:45,197 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:01:45,206 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:01:45,267 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:01:45,267 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:01:45,557 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:01:46,413 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:01:46,443 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:46,444 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:46,469 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:46,469 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:01:46,639 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:01:48,488 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:07:27,589 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-05-08 18:07:27,669 views Fetching all students with details
+INFO 2025-05-08 18:07:27,671 views Found 12 students
+INFO 2025-05-08 18:07:27,854 views Serialized all students data
+INFO 2025-05-08 18:07:27,855 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:07:27,868 views Fetching all students with details
+INFO 2025-05-08 18:07:27,869 views Found 12 students
+INFO 2025-05-08 18:07:28,054 views Serialized all students data
+INFO 2025-05-08 18:07:28,056 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:07:29,302 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:07:29,304 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:07:29,311 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:07:29,347 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:07:29,354 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:07:29,362 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:07:30,206 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:07:30,266 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:07:30,323 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:07:30,323 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:07:30,323 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:07:30,356 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:07:31,558 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:07:32,199 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:07:32,223 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:07:32,223 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:07:32,225 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:07:32,264 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:07:32,942 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:07:32,961 views Fetching all students with details
+INFO 2025-05-08 18:07:32,965 views Found 12 students
+INFO 2025-05-08 18:07:33,228 views Serialized all students data
+INFO 2025-05-08 18:07:33,242 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:07:33,259 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:07:33,260 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:07:33,261 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:07:33,261 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:07:33,261 views Fetching all students with details
+INFO 2025-05-08 18:07:33,265 views Found 12 students
+INFO 2025-05-08 18:07:33,267 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:07:33,505 views Serialized all students data
+INFO 2025-05-08 18:07:33,508 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:07:34,244 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:07:34,245 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:07:34,245 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:07:34,283 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:07:34,305 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:07:34,513 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:07:35,244 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:07:35,244 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:07:35,278 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:07:35,309 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:07:35,341 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:07:36,043 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:07:38,443 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:07:39,357 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:07:39,408 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:07:40,089 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:07:40,199 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:07:41,095 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:07:41,895 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:07:42,071 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:07:42,377 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:07:43,292 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:07:43,790 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:07:45,142 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:14:08,996 views Fetching all students with details
+INFO 2025-05-08 18:14:08,997 views Found 12 students
+INFO 2025-05-08 18:14:09,247 views Serialized all students data
+INFO 2025-05-08 18:14:09,250 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:14:10,311 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:14:10,383 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:14:10,657 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:14:10,683 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:14:10,688 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:14:10,738 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:14:11,804 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:14:11,875 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:14:12,043 basehttp - Broken pipe from ('127.0.0.1', 60030)
+INFO 2025-05-08 18:14:12,043 basehttp - Broken pipe from ('127.0.0.1', 60031)
+INFO 2025-05-08 18:14:12,086 basehttp - Broken pipe from ('127.0.0.1', 60029)
+INFO 2025-05-08 18:14:12,103 basehttp - Broken pipe from ('127.0.0.1', 60032)
+INFO 2025-05-08 18:14:14,732 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-05-08 18:14:14,800 views Fetching all students with details
+INFO 2025-05-08 18:14:14,801 views Found 12 students
+INFO 2025-05-08 18:14:15,251 views Serialized all students data
+INFO 2025-05-08 18:14:15,258 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:14:15,280 views Fetching all students with details
+INFO 2025-05-08 18:14:15,286 views Found 12 students
+INFO 2025-05-08 18:14:15,875 views Serialized all students data
+INFO 2025-05-08 18:14:15,880 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:14:18,211 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:14:18,211 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:14:18,212 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:14:18,212 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:14:18,664 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:14:18,992 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:14:19,455 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:14:19,482 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:14:19,535 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:14:19,537 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:14:19,748 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:14:20,019 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:14:21,804 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:14:22,092 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:14:22,108 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:14:23,779 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:14:24,188 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:14:25,508 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:14:26,739 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:14:26,751 views Fetching all students with details
+INFO 2025-05-08 18:14:26,753 views Found 12 students
+INFO 2025-05-08 18:14:26,761 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:14:26,763 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:14:26,968 views Serialized all students data
+INFO 2025-05-08 18:14:26,971 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:14:26,982 views Fetching all students with details
+INFO 2025-05-08 18:14:26,984 views Found 12 students
+INFO 2025-05-08 18:14:27,212 views Serialized all students data
+INFO 2025-05-08 18:14:27,214 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:14:27,457 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:14:27,457 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:14:27,458 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:14:28,286 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:14:28,494 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:14:28,585 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:14:28,586 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:14:29,098 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:14:29,103 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:14:29,523 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:14:29,528 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:14:29,620 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:14:29,701 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:14:30,038 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:14:30,043 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:14:30,886 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:14:30,962 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:14:30,988 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:14:31,468 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:14:32,087 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:14:32,087 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:14:32,668 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:14:32,673 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:14:32,919 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:14:32,928 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:14:33,172 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:14:33,948 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:17:23,909 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-05-08 18:17:23,976 views Fetching all students with details
+INFO 2025-05-08 18:17:23,977 views Found 12 students
+INFO 2025-05-08 18:17:24,143 views Serialized all students data
+INFO 2025-05-08 18:17:24,144 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:17:24,155 views Fetching all students with details
+INFO 2025-05-08 18:17:24,157 views Found 12 students
+INFO 2025-05-08 18:17:24,342 views Serialized all students data
+INFO 2025-05-08 18:17:24,344 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:17:25,349 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:17:25,349 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:17:25,349 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:17:25,537 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:17:25,541 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:17:25,590 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:17:27,084 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:17:27,084 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:17:27,107 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:17:27,108 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:17:27,125 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:17:27,132 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:17:28,357 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:17:28,357 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:17:28,412 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:17:28,420 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:17:28,421 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:17:28,425 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:17:29,303 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:17:29,319 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:17:29,321 views Fetching all students with details
+INFO 2025-05-08 18:17:29,323 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:17:29,323 views Found 12 students
+INFO 2025-05-08 18:17:29,361 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:17:29,399 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:17:29,407 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:17:29,529 views Serialized all students data
+INFO 2025-05-08 18:17:29,532 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:17:29,545 views Fetching all students with details
+INFO 2025-05-08 18:17:29,640 views Found 12 students
+INFO 2025-05-08 18:17:29,917 views Serialized all students data
+INFO 2025-05-08 18:17:29,919 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:17:30,583 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:17:30,627 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:17:30,630 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:17:30,744 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:17:32,069 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:17:32,091 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:17:32,702 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:17:32,739 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:17:32,766 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:17:32,766 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:17:33,276 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:17:33,300 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:17:33,731 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:17:33,783 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:17:33,793 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:17:33,794 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:17:34,238 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:17:34,426 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:17:34,690 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:17:34,722 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:17:34,873 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:17:34,877 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:17:35,335 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:17:35,376 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:18:17,249 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-05-08 18:18:17,331 views Fetching all students with details
+INFO 2025-05-08 18:18:17,332 views Found 12 students
+INFO 2025-05-08 18:18:17,761 views Serialized all students data
+INFO 2025-05-08 18:18:17,765 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:18:17,781 views Fetching all students with details
+INFO 2025-05-08 18:18:17,783 views Found 12 students
+INFO 2025-05-08 18:18:18,105 views Serialized all students data
+INFO 2025-05-08 18:18:18,107 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:18:18,747 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:18:19,061 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:18:19,062 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:18:19,109 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:18:19,131 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:18:19,133 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:18:19,731 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:18:20,049 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:18:20,051 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:18:20,162 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:18:20,162 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:18:20,162 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:18:21,072 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:18:21,630 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:18:21,695 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:18:21,792 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:18:21,792 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:18:21,822 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:18:22,481 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:18:22,494 views Fetching all students with details
+INFO 2025-05-08 18:18:22,495 views Found 12 students
+INFO 2025-05-08 18:18:22,671 views Serialized all students data
+INFO 2025-05-08 18:18:22,673 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:18:22,708 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:18:22,711 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:18:22,726 views Fetching all students with details
+INFO 2025-05-08 18:18:22,728 views Found 12 students
+INFO 2025-05-08 18:18:22,813 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:18:22,875 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:18:22,916 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:18:23,035 views Serialized all students data
+INFO 2025-05-08 18:18:23,038 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:18:23,679 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:18:23,694 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:18:23,765 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:18:23,822 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:18:23,903 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:18:23,951 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:18:24,906 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:18:24,906 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:18:24,907 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:18:24,938 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:18:24,952 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:18:24,954 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:18:26,568 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:18:26,611 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:18:26,612 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:18:26,613 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:18:26,613 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:18:26,619 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:18:27,915 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:18:27,924 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:18:27,925 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:18:27,930 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:18:27,934 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:18:27,958 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:22:16,481 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-05-08 18:22:16,575 views Fetching all students with details
+INFO 2025-05-08 18:22:16,576 views Found 12 students
+INFO 2025-05-08 18:22:16,881 views Serialized all students data
+INFO 2025-05-08 18:22:16,883 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:22:16,897 views Fetching all students with details
+INFO 2025-05-08 18:22:16,899 views Found 12 students
+INFO 2025-05-08 18:22:17,172 views Serialized all students data
+INFO 2025-05-08 18:22:17,176 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:22:18,279 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:22:18,279 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:22:18,318 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:22:18,324 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:22:18,355 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:22:18,361 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:22:19,257 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:22:19,421 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:22:19,431 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:22:19,432 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:22:19,467 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:22:19,471 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:22:20,275 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:22:20,473 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:22:20,476 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:22:20,543 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:22:20,557 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:22:20,569 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:22:21,429 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:22:21,444 views Fetching all students with details
+INFO 2025-05-08 18:22:21,446 views Found 12 students
+INFO 2025-05-08 18:22:21,528 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:22:21,623 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:22:21,656 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:22:21,656 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:22:21,714 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:22:21,719 views Serialized all students data
+INFO 2025-05-08 18:22:21,723 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:22:21,738 views Fetching all students with details
+INFO 2025-05-08 18:22:21,739 views Found 12 students
+INFO 2025-05-08 18:22:22,009 views Serialized all students data
+INFO 2025-05-08 18:22:22,012 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:22:23,074 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:22:23,075 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:22:23,075 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:22:23,076 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:22:23,086 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:22:23,301 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:22:24,272 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:22:24,287 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:22:24,331 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:22:24,331 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:22:24,332 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:22:24,479 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:22:25,297 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:22:25,469 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:22:25,580 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:22:25,580 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:22:25,667 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:22:25,969 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:22:27,461 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:22:27,528 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:22:27,547 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:22:27,547 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:22:27,559 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:22:27,771 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:26:21,611 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-05-08 18:26:21,696 views Fetching all students with details
+INFO 2025-05-08 18:26:21,697 views Found 12 students
+INFO 2025-05-08 18:26:22,007 views Serialized all students data
+INFO 2025-05-08 18:26:22,009 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:26:22,023 views Fetching all students with details
+INFO 2025-05-08 18:26:22,025 views Found 12 students
+INFO 2025-05-08 18:26:22,534 views Serialized all students data
+INFO 2025-05-08 18:26:22,538 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:26:24,171 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:26:24,171 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:26:24,172 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:26:24,222 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:26:24,223 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:26:24,340 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:26:25,146 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:26:25,235 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:26:25,268 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:26:25,271 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:26:25,356 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:26:25,369 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:26:27,569 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:26:27,576 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:26:27,615 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:26:27,668 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:26:27,715 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:26:27,761 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:26:31,159 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:26:31,159 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:26:31,175 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:26:31,176 views Fetching all students with details
+INFO 2025-05-08 18:26:31,179 views Found 12 students
+INFO 2025-05-08 18:26:31,428 views Serialized all students data
+INFO 2025-05-08 18:26:31,430 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:26:31,443 views Fetching all students with details
+INFO 2025-05-08 18:26:31,444 views Found 12 students
+INFO 2025-05-08 18:26:31,671 views Serialized all students data
+INFO 2025-05-08 18:26:31,673 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:26:31,954 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:26:31,980 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:26:31,981 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:26:33,580 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:26:33,589 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:26:33,828 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:26:33,854 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:26:33,855 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:26:33,863 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:26:34,577 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:26:34,579 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:26:35,067 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:26:35,182 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:26:35,263 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:26:35,263 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:26:36,202 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:26:36,207 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:26:36,937 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:26:37,334 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:26:37,342 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:26:37,354 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:26:38,246 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:26:38,433 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:26:38,477 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:26:38,739 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:26:38,843 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:26:38,843 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:29:18,989 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-05-08 18:29:19,085 views Fetching all students with details
+INFO 2025-05-08 18:29:19,087 views Found 12 students
+INFO 2025-05-08 18:29:19,477 views Serialized all students data
+INFO 2025-05-08 18:29:19,482 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:29:19,508 views Fetching all students with details
+INFO 2025-05-08 18:29:19,513 views Found 12 students
+INFO 2025-05-08 18:29:20,114 views Serialized all students data
+INFO 2025-05-08 18:29:20,120 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:29:20,946 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:29:20,946 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:29:20,947 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:29:21,002 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:29:21,019 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:29:21,297 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:29:22,087 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:29:22,088 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:29:22,110 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:29:22,111 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:29:22,138 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:29:22,378 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:29:23,170 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:29:23,171 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:29:23,223 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:29:23,229 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:29:23,239 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:29:23,471 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:29:24,312 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:29:24,312 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:29:24,315 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:29:24,316 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:29:24,323 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:29:24,337 views Fetching all students with details
+INFO 2025-05-08 18:29:24,340 views Found 12 students
+INFO 2025-05-08 18:29:24,579 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:29:24,850 views Serialized all students data
+INFO 2025-05-08 18:29:24,853 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:29:24,875 views Fetching all students with details
+INFO 2025-05-08 18:29:24,879 views Found 12 students
+INFO 2025-05-08 18:29:25,454 views Serialized all students data
+INFO 2025-05-08 18:29:25,458 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:29:26,022 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:29:26,032 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:29:26,044 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:29:26,044 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:29:26,106 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:29:27,073 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:29:27,985 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:29:27,987 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:29:28,111 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:29:28,133 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:29:28,208 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:29:28,466 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:29:29,065 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:29:29,083 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:29:29,130 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:29:29,169 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:29:29,190 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:29:29,494 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:29:30,039 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:29:30,085 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:29:30,097 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:29:30,169 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:29:30,204 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:29:30,479 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:33:12,110 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-05-08 18:33:12,190 views Fetching all students with details
+INFO 2025-05-08 18:33:12,192 views Found 12 students
+INFO 2025-05-08 18:33:12,424 views Serialized all students data
+INFO 2025-05-08 18:33:12,427 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:33:12,440 views Fetching all students with details
+INFO 2025-05-08 18:33:12,441 views Found 12 students
+INFO 2025-05-08 18:33:12,713 views Serialized all students data
+INFO 2025-05-08 18:33:12,715 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:33:13,582 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:33:13,643 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:33:13,645 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:33:13,649 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:33:13,649 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:33:13,798 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:33:14,546 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:33:14,746 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:33:14,749 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:33:14,751 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:33:14,785 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:33:14,785 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:33:15,590 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:33:15,798 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:33:15,849 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:33:15,850 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:33:15,853 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:33:15,865 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:33:16,890 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:33:16,909 views Fetching all students with details
+INFO 2025-05-08 18:33:16,910 views Found 12 students
+INFO 2025-05-08 18:33:16,979 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:33:17,132 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:33:17,153 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:33:17,155 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:33:17,157 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:33:17,168 views Serialized all students data
+INFO 2025-05-08 18:33:17,170 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:33:17,183 views Fetching all students with details
+INFO 2025-05-08 18:33:17,184 views Found 12 students
+INFO 2025-05-08 18:33:17,485 views Serialized all students data
+INFO 2025-05-08 18:33:17,490 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:33:18,293 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:33:18,294 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:33:18,294 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:33:18,303 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:33:18,545 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:33:18,779 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:33:19,504 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:33:19,504 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:33:19,533 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:33:19,540 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:33:19,842 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:33:20,194 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:33:20,797 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:33:20,798 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:33:21,109 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:33:21,109 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:33:21,489 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:33:21,972 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:33:22,193 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:33:22,212 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:33:22,389 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:33:22,392 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:33:22,686 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:33:22,938 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:41:09,787 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-05-08 18:41:09,870 views Fetching all students with details
+INFO 2025-05-08 18:41:09,871 views Found 12 students
+INFO 2025-05-08 18:41:10,082 views Serialized all students data
+INFO 2025-05-08 18:41:10,085 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:41:10,100 views Fetching all students with details
+INFO 2025-05-08 18:41:10,101 views Found 12 students
+INFO 2025-05-08 18:41:10,346 views Serialized all students data
+INFO 2025-05-08 18:41:10,348 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:41:11,657 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:41:11,759 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:41:11,769 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:41:11,774 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:41:11,776 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:41:11,792 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:41:12,764 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:41:12,768 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:41:12,776 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:41:12,855 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:41:12,888 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:41:12,895 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:41:13,859 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:41:13,872 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:41:13,889 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:41:13,897 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:41:13,925 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:41:13,945 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:41:14,911 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:41:14,924 views Fetching all students with details
+INFO 2025-05-08 18:41:14,927 views Found 12 students
+INFO 2025-05-08 18:41:14,981 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:41:15,038 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:41:15,038 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:41:15,055 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:41:15,200 views Serialized all students data
+INFO 2025-05-08 18:41:15,202 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:41:15,218 views Fetching all students with details
+INFO 2025-05-08 18:41:15,221 views Found 12 students
+INFO 2025-05-08 18:41:15,239 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:41:15,465 views Serialized all students data
+INFO 2025-05-08 18:41:15,467 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:41:16,581 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:41:16,581 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:41:16,581 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:41:16,680 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:41:16,680 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:41:16,825 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:41:17,663 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:41:17,665 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:41:17,674 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:41:17,812 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:41:17,812 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:41:17,892 basehttp - Broken pipe from ('127.0.0.1', 49373)
+INFO 2025-05-08 18:41:18,622 basehttp - Broken pipe from ('127.0.0.1', 49370)
+INFO 2025-05-08 18:41:18,625 basehttp - Broken pipe from ('127.0.0.1', 49372)
+INFO 2025-05-08 18:41:18,830 basehttp - Broken pipe from ('127.0.0.1', 49371)
+INFO 2025-05-08 18:41:18,833 basehttp - Broken pipe from ('127.0.0.1', 49353)
+INFO 2025-05-08 18:41:18,883 basehttp - Broken pipe from ('127.0.0.1', 49355)
+INFO 2025-05-08 18:42:56,904 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-05-08 18:42:59,194 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-05-08 18:43:21,292 views Fetching all students with details
+INFO 2025-05-08 18:43:21,296 views Found 12 students
+INFO 2025-05-08 18:43:21,494 views Serialized all students data
+INFO 2025-05-08 18:43:21,495 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:43:21,511 views Fetching all students with details
+INFO 2025-05-08 18:43:21,514 views Found 12 students
+INFO 2025-05-08 18:43:21,714 views Serialized all students data
+INFO 2025-05-08 18:43:21,715 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:43:23,099 basehttp - Broken pipe from ('127.0.0.1', 49855)
+INFO 2025-05-08 18:43:23,104 basehttp - Broken pipe from ('127.0.0.1', 49856)
+INFO 2025-05-08 18:43:23,104 basehttp - Broken pipe from ('127.0.0.1', 49826)
+INFO 2025-05-08 18:43:23,432 basehttp - Broken pipe from ('127.0.0.1', 49824)
+INFO 2025-05-08 18:43:23,447 basehttp - Broken pipe from ('127.0.0.1', 49853)
+INFO 2025-05-08 18:43:23,495 basehttp - Broken pipe from ('127.0.0.1', 49854)
+INFO 2025-05-08 18:43:25,245 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-05-08 18:43:25,319 views Fetching all students with details
+INFO 2025-05-08 18:43:25,320 views Found 12 students
+INFO 2025-05-08 18:43:25,478 views Serialized all students data
+INFO 2025-05-08 18:43:25,479 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:43:25,492 views Fetching all students with details
+INFO 2025-05-08 18:43:25,493 views Found 12 students
+INFO 2025-05-08 18:43:25,747 views Serialized all students data
+INFO 2025-05-08 18:43:25,749 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:43:26,678 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:43:26,895 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:43:26,936 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:43:26,967 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:43:26,970 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:43:26,971 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:43:27,681 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:43:27,939 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:43:27,940 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:43:27,958 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:43:27,988 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:43:28,050 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:43:28,688 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:43:29,091 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:43:29,107 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:43:29,107 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:43:29,108 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:43:29,148 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:43:29,893 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:43:29,911 views Fetching all students with details
+INFO 2025-05-08 18:43:29,913 views Found 12 students
+INFO 2025-05-08 18:43:30,142 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:43:30,191 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:43:30,192 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:43:30,195 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:43:30,238 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:43:30,241 views Serialized all students data
+INFO 2025-05-08 18:43:30,244 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:43:30,257 views Fetching all students with details
+INFO 2025-05-08 18:43:30,258 views Found 12 students
+INFO 2025-05-08 18:43:30,588 views Serialized all students data
+INFO 2025-05-08 18:43:30,590 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:43:31,880 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:43:31,881 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:43:31,891 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:43:31,902 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:43:31,904 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:43:31,991 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:43:33,135 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:43:33,137 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:43:33,138 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:43:33,164 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:43:33,181 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:43:33,187 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:43:34,093 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:43:34,120 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:43:34,122 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:43:34,170 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:43:34,173 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:43:34,188 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:43:35,140 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:43:35,150 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:43:35,160 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:43:35,194 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:43:35,235 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:43:35,252 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:49:49,084 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-05-08 18:49:49,175 views Fetching all students with details
+INFO 2025-05-08 18:49:49,177 views Found 12 students
+INFO 2025-05-08 18:49:49,513 views Serialized all students data
+INFO 2025-05-08 18:49:49,518 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:49:49,535 views Fetching all students with details
+INFO 2025-05-08 18:49:49,538 views Found 12 students
+INFO 2025-05-08 18:49:49,871 views Serialized all students data
+INFO 2025-05-08 18:49:49,878 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:49:51,402 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:49:51,442 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:49:51,442 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:49:51,479 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:49:51,480 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:49:51,483 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:49:52,485 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:49:52,514 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:49:52,531 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:49:52,531 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:49:52,636 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:49:52,643 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:49:53,482 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:49:53,482 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:49:53,484 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:49:53,572 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:49:53,626 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:49:53,655 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:49:54,433 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:49:54,445 views Fetching all students with details
+INFO 2025-05-08 18:49:54,447 views Found 12 students
+INFO 2025-05-08 18:49:54,497 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:49:54,569 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:49:54,595 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:49:54,637 views Serialized all students data
+INFO 2025-05-08 18:49:54,641 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:49:54,645 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:49:54,648 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:49:54,652 views Fetching all students with details
+INFO 2025-05-08 18:49:54,656 views Found 12 students
+INFO 2025-05-08 18:49:54,973 views Serialized all students data
+INFO 2025-05-08 18:49:54,976 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:49:55,692 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:49:55,692 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:49:55,871 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:49:55,872 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:49:55,882 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:49:56,294 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:49:57,837 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:49:57,852 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:49:57,943 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:49:57,944 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:49:57,949 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:49:58,772 basehttp - Broken pipe from ('127.0.0.1', 50344)
+INFO 2025-05-08 18:49:58,844 views Fetching all students with details
+INFO 2025-05-08 18:49:58,846 views Found 12 students
+INFO 2025-05-08 18:49:59,052 basehttp - Broken pipe from ('127.0.0.1', 50331)
+INFO 2025-05-08 18:49:59,067 basehttp - Broken pipe from ('127.0.0.1', 50346)
+INFO 2025-05-08 18:49:59,140 views Serialized all students data
+INFO 2025-05-08 18:49:59,142 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:49:59,157 views Fetching all students with details
+INFO 2025-05-08 18:49:59,159 views Found 12 students
+INFO 2025-05-08 18:49:59,205 basehttp - Broken pipe from ('127.0.0.1', 50345)
+INFO 2025-05-08 18:49:59,222 basehttp - Broken pipe from ('127.0.0.1', 50343)
+INFO 2025-05-08 18:49:59,288 basehttp - Broken pipe from ('127.0.0.1', 50329)
+INFO 2025-05-08 18:49:59,503 views Serialized all students data
+INFO 2025-05-08 18:49:59,510 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:50:00,167 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:50:00,176 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:50:00,176 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:50:00,487 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:50:00,615 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:50:00,847 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:50:01,798 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:50:01,884 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:50:01,972 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:50:02,180 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:50:02,269 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:50:02,277 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:50:03,071 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:50:03,071 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:50:03,080 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:50:03,298 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:50:03,441 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:50:03,475 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:50:04,070 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:50:04,070 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:50:04,085 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:50:04,087 views Fetching all students with details
+INFO 2025-05-08 18:50:04,089 views Found 12 students
+INFO 2025-05-08 18:50:04,279 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:50:04,380 views Serialized all students data
+INFO 2025-05-08 18:50:04,386 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:50:04,386 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:50:04,407 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:50:04,409 views Fetching all students with details
+INFO 2025-05-08 18:50:04,411 views Found 12 students
+INFO 2025-05-08 18:50:04,839 views Serialized all students data
+INFO 2025-05-08 18:50:04,842 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:50:05,465 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:50:05,466 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:50:05,492 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:50:05,506 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:50:05,506 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:50:06,005 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:50:07,568 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:50:07,596 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:50:07,609 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:50:07,677 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:50:07,684 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:50:07,981 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:50:08,780 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:50:08,785 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:50:08,785 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:50:08,789 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:50:08,790 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:50:09,956 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:50:09,958 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:50:09,963 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:50:09,965 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:50:09,967 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:50:10,182 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:50:12,015 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:52:52,881 views Fetching all students with details
+INFO 2025-05-08 18:52:52,883 views Found 12 students
+INFO 2025-05-08 18:52:53,157 views Serialized all students data
+INFO 2025-05-08 18:52:53,158 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:52:53,170 views Fetching all students with details
+INFO 2025-05-08 18:52:53,172 views Found 12 students
+INFO 2025-05-08 18:52:53,374 views Serialized all students data
+INFO 2025-05-08 18:52:53,377 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:52:54,549 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:52:54,583 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:52:54,583 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:52:54,583 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:52:54,615 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:52:54,620 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:52:56,040 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:52:56,387 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:52:56,387 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:52:56,413 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:52:56,494 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:52:56,494 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:52:57,245 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:52:57,753 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:52:57,753 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:52:57,779 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:52:57,785 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:52:57,786 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:52:58,804 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:52:58,819 views Fetching all students with details
+INFO 2025-05-08 18:52:58,821 views Found 12 students
+INFO 2025-05-08 18:52:59,032 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:52:59,039 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:52:59,041 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:52:59,059 views Serialized all students data
+INFO 2025-05-08 18:52:59,062 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:52:59,075 views Fetching all students with details
+INFO 2025-05-08 18:52:59,077 views Found 12 students
+INFO 2025-05-08 18:52:59,125 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:52:59,131 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:52:59,369 views Serialized all students data
+INFO 2025-05-08 18:52:59,372 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:53:00,099 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:53:00,107 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:53:00,174 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:53:00,199 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:53:00,226 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:53:00,380 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:53:01,727 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:53:01,804 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:53:01,922 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:53:02,110 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:53:02,111 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:53:02,215 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:53:02,937 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:53:03,009 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:53:03,029 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:53:03,111 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:53:03,179 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:53:03,212 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:53:03,840 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:53:04,005 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:53:04,006 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:53:04,099 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:53:04,099 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:53:04,212 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:55:29,733 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-05-08 18:55:29,812 views Fetching all students with details
+INFO 2025-05-08 18:55:29,814 views Found 12 students
+INFO 2025-05-08 18:55:30,003 views Serialized all students data
+INFO 2025-05-08 18:55:30,005 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:55:30,017 views Fetching all students with details
+INFO 2025-05-08 18:55:30,018 views Found 12 students
+INFO 2025-05-08 18:55:30,238 views Serialized all students data
+INFO 2025-05-08 18:55:30,240 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:55:31,729 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:55:31,731 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:55:31,731 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:55:31,731 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:55:31,731 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:55:32,109 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:55:33,307 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:55:33,344 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:55:33,353 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:55:33,355 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:55:33,355 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:55:33,358 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:55:34,328 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:55:34,329 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:55:34,356 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:55:34,379 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:55:34,381 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:55:34,417 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:55:35,311 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:55:35,323 views Fetching all students with details
+INFO 2025-05-08 18:55:35,325 views Found 12 students
+INFO 2025-05-08 18:55:35,366 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:55:35,367 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:55:35,369 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:55:35,415 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:55:35,443 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:55:35,529 views Serialized all students data
+INFO 2025-05-08 18:55:35,532 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:55:35,549 views Fetching all students with details
+INFO 2025-05-08 18:55:35,550 views Found 12 students
+INFO 2025-05-08 18:55:35,866 views Serialized all students data
+INFO 2025-05-08 18:55:35,868 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:55:36,900 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:55:36,905 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:55:36,907 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:55:36,946 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:55:36,946 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:55:37,123 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:55:37,861 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:55:37,862 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:55:37,901 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:55:38,004 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:55:38,006 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:55:38,100 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:55:38,807 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:55:38,849 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:55:38,860 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:55:38,963 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:55:38,964 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:55:39,106 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:55:39,760 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:55:39,857 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:55:39,862 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:55:39,946 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:55:39,951 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:55:40,043 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:55:41,380 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-05-08 18:55:41,602 basehttp "OPTIONS /api/my-marks/ HTTP/1.1" 200 0
+INFO 2025-05-08 18:55:41,603 basehttp "OPTIONS /api/my-marks/ HTTP/1.1" 200 0
+INFO 2025-05-08 18:55:41,604 basehttp "OPTIONS /api/student/courses/ HTTP/1.1" 200 0
+INFO 2025-05-08 18:55:41,604 basehttp "OPTIONS /api/my-attendance/ HTTP/1.1" 200 0
+INFO 2025-05-08 18:55:41,604 basehttp "OPTIONS /api/student/courses/ HTTP/1.1" 200 0
+INFO 2025-05-08 18:55:41,604 basehttp "OPTIONS /api/my-attendance/ HTTP/1.1" 200 0
+INFO 2025-05-08 18:55:41,663 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-05-08 18:55:41,664 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-05-08 18:55:41,693 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-05-08 18:55:41,823 views Fetched 6 courses for student S001
+INFO 2025-05-08 18:55:41,825 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-05-08 18:55:41,830 basehttp "GET /api/student/courses/ HTTP/1.1" 200 257
+INFO 2025-05-08 18:55:41,847 views Fetched 6 courses for student S001
+INFO 2025-05-08 18:55:41,851 basehttp "GET /api/student/courses/ HTTP/1.1" 200 257
+INFO 2025-05-08 18:55:41,852 basehttp "OPTIONS /api/student/course-prediction/1/ HTTP/1.1" 200 0
+INFO 2025-05-08 18:55:42,841 basehttp "GET /api/student/course-prediction/1/ HTTP/1.1" 200 342
+INFO 2025-05-08 18:55:42,851 basehttp "OPTIONS /api/student/course-prediction/2/ HTTP/1.1" 200 0
+INFO 2025-05-08 18:55:43,764 basehttp "GET /api/student/course-prediction/1/ HTTP/1.1" 200 342
+INFO 2025-05-08 18:55:43,838 basehttp "GET /api/student/course-prediction/2/ HTTP/1.1" 200 349
+INFO 2025-05-08 18:55:43,849 basehttp "OPTIONS /api/student/course-prediction/3/ HTTP/1.1" 200 0
+INFO 2025-05-08 18:55:47,030 basehttp "GET /api/student/course-prediction/2/ HTTP/1.1" 200 349
+INFO 2025-05-08 18:55:47,645 basehttp "GET /api/student/course-prediction/3/ HTTP/1.1" 200 353
+INFO 2025-05-08 18:55:47,654 basehttp "OPTIONS /api/student/course-prediction/4/ HTTP/1.1" 200 0
+INFO 2025-05-08 18:55:48,931 basehttp "GET /api/student/course-prediction/4/ HTTP/1.1" 200 348
+INFO 2025-05-08 18:55:48,940 basehttp "OPTIONS /api/student/course-prediction/5/ HTTP/1.1" 200 0
+INFO 2025-05-08 18:55:48,958 basehttp "GET /api/student/course-prediction/3/ HTTP/1.1" 200 353
+INFO 2025-05-08 18:55:50,014 basehttp "GET /api/student/course-prediction/5/ HTTP/1.1" 200 348
+INFO 2025-05-08 18:55:50,027 basehttp "OPTIONS /api/student/course-prediction/6/ HTTP/1.1" 200 0
+INFO 2025-05-08 18:55:50,047 basehttp "GET /api/student/course-prediction/4/ HTTP/1.1" 200 348
+INFO 2025-05-08 18:55:51,153 basehttp "GET /api/student/course-prediction/6/ HTTP/1.1" 200 348
+INFO 2025-05-08 18:55:51,159 basehttp "GET /api/student/course-prediction/5/ HTTP/1.1" 200 348
+INFO 2025-05-08 18:55:52,403 basehttp "GET /api/student/course-prediction/6/ HTTP/1.1" 200 348
+INFO 2025-05-08 18:58:05,510 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-05-08 18:58:05,619 views Fetched 6 courses for student S001
+INFO 2025-05-08 18:58:05,635 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-05-08 18:58:05,636 basehttp "GET /api/student/courses/ HTTP/1.1" 200 257
+INFO 2025-05-08 18:58:05,643 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-05-08 18:58:05,678 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-05-08 18:58:05,689 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-05-08 18:58:05,767 views Fetched 6 courses for student S001
+INFO 2025-05-08 18:58:05,774 basehttp "GET /api/student/courses/ HTTP/1.1" 200 257
+INFO 2025-05-08 18:58:07,720 basehttp "GET /api/student/course-prediction/1/ HTTP/1.1" 200 342
+INFO 2025-05-08 18:58:09,480 basehttp "GET /api/student/course-prediction/1/ HTTP/1.1" 200 342
+INFO 2025-05-08 18:58:09,486 basehttp "GET /api/student/course-prediction/2/ HTTP/1.1" 200 349
+INFO 2025-05-08 18:58:10,400 basehttp "GET /api/student/course-prediction/3/ HTTP/1.1" 200 353
+INFO 2025-05-08 18:58:10,495 basehttp "GET /api/student/course-prediction/2/ HTTP/1.1" 200 349
+INFO 2025-05-08 18:58:11,499 basehttp "GET /api/student/course-prediction/4/ HTTP/1.1" 200 348
+INFO 2025-05-08 18:58:11,522 basehttp "GET /api/student/course-prediction/3/ HTTP/1.1" 200 353
+INFO 2025-05-08 18:58:12,826 basehttp "GET /api/student/course-prediction/5/ HTTP/1.1" 200 348
+INFO 2025-05-08 18:58:12,847 basehttp "GET /api/student/course-prediction/4/ HTTP/1.1" 200 348
+INFO 2025-05-08 18:58:12,951 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-05-08 18:58:12,974 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-05-08 18:58:13,847 basehttp "GET /api/student/course-prediction/6/ HTTP/1.1" 200 348
+INFO 2025-05-08 18:58:13,862 basehttp "GET /api/student/course-prediction/5/ HTTP/1.1" 200 348
+INFO 2025-05-08 18:58:14,278 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-05-08 18:58:14,306 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-05-08 18:58:14,776 basehttp - Broken pipe from ('127.0.0.1', 50448)
+INFO 2025-05-08 18:58:16,703 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-05-08 18:58:16,724 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-05-08 18:58:18,504 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-05-08 18:58:18,535 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-05-08 18:58:29,357 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-05-08 18:58:29,436 views Fetching all students with details
+INFO 2025-05-08 18:58:29,438 views Found 12 students
+INFO 2025-05-08 18:58:29,622 views Serialized all students data
+INFO 2025-05-08 18:58:29,625 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:58:29,637 views Fetching all students with details
+INFO 2025-05-08 18:58:29,639 views Found 12 students
+INFO 2025-05-08 18:58:29,834 views Serialized all students data
+INFO 2025-05-08 18:58:29,837 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:58:32,638 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:58:32,641 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:58:32,642 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:58:32,646 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:58:32,881 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:58:33,255 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:33,751 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:58:33,761 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:58:33,769 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:58:33,770 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:34,184 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:34,420 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:34,860 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:58:34,860 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:58:34,898 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:58:34,898 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:58:35,246 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:58:35,345 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:35,797 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:58:35,809 views Fetching all students with details
+INFO 2025-05-08 18:58:35,811 views Found 12 students
+INFO 2025-05-08 18:58:35,870 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:58:35,893 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:58:35,895 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:36,015 views Serialized all students data
+INFO 2025-05-08 18:58:36,016 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:58:36,029 views Fetching all students with details
+INFO 2025-05-08 18:58:36,031 views Found 12 students
+INFO 2025-05-08 18:58:36,166 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:36,298 views Serialized all students data
+INFO 2025-05-08 18:58:36,300 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:58:36,344 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:36,990 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:58:37,006 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:58:37,021 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:58:37,079 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:58:37,249 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:58:37,302 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:37,944 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:58:38,010 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:58:38,010 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:58:38,011 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:38,255 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:38,259 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:39,742 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:58:39,752 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:58:39,763 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:58:39,775 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:39,775 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:58:39,800 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:58:40,727 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:40,727 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:58:40,754 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:58:40,805 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:40,833 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:58:40,837 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:49,698 views Fetching all students with details
+INFO 2025-05-08 18:58:49,699 views Found 12 students
+INFO 2025-05-08 18:58:49,891 views Serialized all students data
+INFO 2025-05-08 18:58:49,893 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:58:49,905 views Fetching all students with details
+INFO 2025-05-08 18:58:49,906 views Found 12 students
+INFO 2025-05-08 18:58:50,170 views Serialized all students data
+INFO 2025-05-08 18:58:50,172 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:58:50,871 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:58:50,871 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:58:50,883 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:58:50,891 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:58:50,923 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:58:51,101 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:52,019 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:52,022 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:58:52,052 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:58:52,053 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:58:52,060 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:52,225 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:52,969 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:58:53,005 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:58:53,097 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:58:53,098 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:58:53,098 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:58:53,167 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:53,968 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:53,985 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:58:53,989 views Fetching all students with details
+INFO 2025-05-08 18:58:53,991 views Found 12 students
+INFO 2025-05-08 18:58:54,039 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:58:54,044 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:58:54,054 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:54,124 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:54,379 views Serialized all students data
+INFO 2025-05-08 18:58:54,383 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:58:54,398 views Fetching all students with details
+INFO 2025-05-08 18:58:54,400 views Found 12 students
+INFO 2025-05-08 18:58:54,757 views Serialized all students data
+INFO 2025-05-08 18:58:54,761 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 18:58:55,420 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:58:55,420 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:58:55,451 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:58:55,452 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:58:55,453 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:58:55,720 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:56,355 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:58:56,389 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:56,395 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:56,398 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:58:56,404 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:58:56,660 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:57,281 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 18:58:57,305 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 18:58:57,379 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:58:57,397 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 18:58:57,397 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 18:58:57,618 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:58,189 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 18:58:58,199 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:58,363 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 18:58:58,363 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 18:58:58,363 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 18:58:58,580 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:03:10,597 views Fetching all students with details
+INFO 2025-05-08 19:03:10,599 views Found 12 students
+INFO 2025-05-08 19:03:11,061 views Serialized all students data
+INFO 2025-05-08 19:03:11,066 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 19:03:11,081 views Fetching all students with details
+INFO 2025-05-08 19:03:11,083 views Found 12 students
+INFO 2025-05-08 19:03:11,562 views Serialized all students data
+INFO 2025-05-08 19:03:11,567 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 19:03:12,345 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:03:12,346 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 19:03:12,346 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:03:12,373 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 19:03:12,400 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 19:03:12,517 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:03:13,420 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 19:03:13,517 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:03:13,522 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:03:13,529 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 19:03:13,534 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 19:03:13,540 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:03:14,385 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 19:03:14,484 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 19:03:14,484 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:03:14,540 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:03:14,558 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:03:14,558 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 19:03:15,337 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 19:03:15,358 views Fetching all students with details
+INFO 2025-05-08 19:03:15,361 views Found 12 students
+INFO 2025-05-08 19:03:15,436 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:03:15,480 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 19:03:15,491 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:03:15,539 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 19:03:15,547 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:03:15,841 views Serialized all students data
+INFO 2025-05-08 19:03:15,845 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 19:03:15,863 views Fetching all students with details
+INFO 2025-05-08 19:03:15,865 views Found 12 students
+INFO 2025-05-08 19:03:16,342 views Serialized all students data
+INFO 2025-05-08 19:03:16,345 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 19:03:17,340 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:03:17,340 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:03:17,341 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 19:03:17,349 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 19:03:17,351 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 19:03:17,658 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:03:18,362 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 19:03:18,364 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:03:18,367 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 19:03:18,442 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:03:18,444 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 19:03:18,635 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:03:19,345 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:03:19,358 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:03:19,403 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 19:03:19,465 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 19:03:19,467 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 19:03:19,569 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:03:20,362 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 19:03:20,364 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:03:20,365 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 19:03:20,412 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:03:20,414 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 19:03:20,520 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:04:16,315 views Fetching all students with details
+INFO 2025-05-08 19:04:16,318 views Found 12 students
+INFO 2025-05-08 19:04:16,825 views Serialized all students data
+INFO 2025-05-08 19:04:16,830 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 19:04:16,854 views Fetching all students with details
+INFO 2025-05-08 19:04:16,857 views Found 12 students
+INFO 2025-05-08 19:04:17,743 views Serialized all students data
+INFO 2025-05-08 19:04:17,754 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 19:04:18,768 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 19:04:18,769 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:04:18,772 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:04:18,861 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:04:18,864 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 19:04:18,875 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 19:04:19,878 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:04:19,879 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:04:19,879 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 19:04:19,923 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 19:04:19,953 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 19:04:19,994 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:04:21,197 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:04:21,198 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 19:04:21,199 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:04:21,199 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:04:21,201 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 19:04:21,386 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 19:04:22,180 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 19:04:22,181 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:04:22,193 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:04:22,209 views Fetching all students with details
+INFO 2025-05-08 19:04:22,215 views Found 12 students
+INFO 2025-05-08 19:04:22,221 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 19:04:22,221 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 19:04:22,659 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:04:22,750 views Serialized all students data
+INFO 2025-05-08 19:04:22,755 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 19:04:22,776 views Fetching all students with details
+INFO 2025-05-08 19:04:22,778 views Found 12 students
+INFO 2025-05-08 19:04:23,345 views Serialized all students data
+INFO 2025-05-08 19:04:23,349 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 19:04:23,806 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:04:23,808 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 19:04:23,821 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:04:23,833 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 19:04:23,836 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 19:04:24,295 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:04:24,767 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 19:04:24,796 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 19:04:24,837 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:04:24,883 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:04:24,894 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 19:04:25,243 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:04:25,687 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:04:25,743 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:04:25,765 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 19:04:25,846 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 19:04:25,856 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 19:04:26,165 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:04:26,646 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 19:04:26,659 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 19:04:26,689 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:04:26,826 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:04:26,826 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 19:04:27,123 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:04:36,327 views Fetching all students with details
+INFO 2025-05-08 19:04:36,329 views Found 12 students
+INFO 2025-05-08 19:04:36,541 views Serialized all students data
+INFO 2025-05-08 19:04:36,543 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 19:04:36,557 views Fetching all students with details
+INFO 2025-05-08 19:04:36,559 views Found 12 students
+INFO 2025-05-08 19:04:36,764 views Serialized all students data
+INFO 2025-05-08 19:04:36,766 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 19:04:37,485 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 19:04:37,491 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 19:04:37,527 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 19:04:37,548 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:04:37,549 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:04:37,708 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:04:38,753 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:04:38,754 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:04:38,754 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 19:04:38,755 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 19:04:38,755 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 19:04:38,963 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:04:39,701 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 19:04:39,701 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 19:04:39,728 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:04:39,738 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 19:04:39,789 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:04:39,875 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:04:40,652 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:04:40,665 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 19:04:40,684 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 19:04:40,710 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:04:40,727 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 19:04:40,805 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:05:10,318 views Fetching all students with details
+INFO 2025-05-08 19:05:10,321 views Found 12 students
+INFO 2025-05-08 19:05:10,805 views Serialized all students data
+INFO 2025-05-08 19:05:10,810 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 19:05:10,834 views Fetching all students with details
+INFO 2025-05-08 19:05:10,836 views Found 12 students
+INFO 2025-05-08 19:05:11,404 views Serialized all students data
+INFO 2025-05-08 19:05:11,409 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 19:05:11,917 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 19:05:11,917 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:05:11,918 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 19:05:11,918 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 19:05:11,919 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:05:12,330 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:05:12,873 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 19:05:12,873 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 19:05:12,925 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:05:12,945 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 19:05:12,955 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:05:13,330 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:05:13,857 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 19:05:13,858 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:05:13,873 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:05:13,934 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 19:05:13,935 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 19:05:14,296 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:05:14,860 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 19:05:14,868 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:05:14,873 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 19:05:14,874 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 19:05:14,883 views Fetching all students with details
+INFO 2025-05-08 19:05:14,884 views Found 12 students
+INFO 2025-05-08 19:05:14,925 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:05:15,281 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:05:15,317 views Serialized all students data
+INFO 2025-05-08 19:05:15,321 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 19:05:15,336 views Fetching all students with details
+INFO 2025-05-08 19:05:15,340 views Found 12 students
+INFO 2025-05-08 19:05:15,854 views Serialized all students data
+INFO 2025-05-08 19:05:15,858 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 19:05:16,331 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:05:16,364 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 19:05:16,375 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 19:05:16,378 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 19:05:16,428 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:05:16,835 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:05:17,275 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 19:05:17,337 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 19:05:17,382 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:05:17,397 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 19:05:17,397 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:05:17,789 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:05:18,228 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:05:18,266 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 19:05:18,324 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:05:18,347 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 19:05:19,011 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 19:05:19,045 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:05:19,178 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 19:05:19,227 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 19:05:19,304 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:05:19,374 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 19:05:20,046 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:05:20,047 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:05:22,405 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-05-08 19:05:22,544 views Fetched 6 courses for student S001
+INFO 2025-05-08 19:05:22,566 basehttp "GET /api/student/courses/ HTTP/1.1" 200 257
+INFO 2025-05-08 19:05:22,575 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-05-08 19:05:22,597 views Fetched 6 courses for student S001
+INFO 2025-05-08 19:05:22,620 basehttp "GET /api/student/courses/ HTTP/1.1" 200 257
+INFO 2025-05-08 19:05:22,649 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-05-08 19:05:22,664 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-05-08 19:05:22,694 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-05-08 19:05:23,691 basehttp "GET /api/student/course-prediction/1/ HTTP/1.1" 200 342
+INFO 2025-05-08 19:05:24,641 basehttp "GET /api/student/course-prediction/1/ HTTP/1.1" 200 342
+INFO 2025-05-08 19:05:24,737 basehttp "GET /api/student/course-prediction/2/ HTTP/1.1" 200 349
+INFO 2025-05-08 19:05:25,683 basehttp "GET /api/student/course-prediction/2/ HTTP/1.1" 200 349
+INFO 2025-05-08 19:05:25,736 basehttp "GET /api/student/course-prediction/3/ HTTP/1.1" 200 353
+INFO 2025-05-08 19:05:26,678 basehttp "GET /api/student/course-prediction/4/ HTTP/1.1" 200 348
+INFO 2025-05-08 19:05:26,710 basehttp "GET /api/student/course-prediction/3/ HTTP/1.1" 200 353
+INFO 2025-05-08 19:05:27,605 basehttp "GET /api/student/course-prediction/5/ HTTP/1.1" 200 348
+INFO 2025-05-08 19:05:27,659 basehttp "GET /api/student/course-prediction/4/ HTTP/1.1" 200 348
+INFO 2025-05-08 19:05:28,045 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-05-08 19:05:28,099 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-05-08 19:05:28,539 basehttp "GET /api/student/course-prediction/6/ HTTP/1.1" 200 348
+INFO 2025-05-08 19:05:28,631 basehttp "GET /api/student/course-prediction/5/ HTTP/1.1" 200 348
+INFO 2025-05-08 19:05:29,615 basehttp - Broken pipe from ('127.0.0.1', 50462)
+INFO 2025-05-08 19:05:29,802 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-05-08 19:05:29,858 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-05-08 19:05:32,852 views Fetched 6 courses for student S001
+INFO 2025-05-08 19:05:32,892 basehttp "GET /api/student/courses/ HTTP/1.1" 200 257
+INFO 2025-05-08 19:05:32,911 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-05-08 19:05:32,922 views Fetched 6 courses for student S001
+INFO 2025-05-08 19:05:32,929 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-05-08 19:05:32,937 basehttp "GET /api/student/courses/ HTTP/1.1" 200 257
+INFO 2025-05-08 19:05:33,000 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-05-08 19:05:33,003 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-05-08 19:05:33,773 views Fetched 6 courses for student S001
+INFO 2025-05-08 19:05:33,795 basehttp "GET /api/student/courses/ HTTP/1.1" 200 257
+INFO 2025-05-08 19:05:33,801 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-05-08 19:05:33,810 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-05-08 19:05:33,824 views Fetched 6 courses for student S001
+INFO 2025-05-08 19:05:33,835 basehttp "GET /api/student/courses/ HTTP/1.1" 200 257
+INFO 2025-05-08 19:05:33,895 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 1178
+INFO 2025-05-08 19:05:33,895 basehttp "GET /api/my-marks/ HTTP/1.1" 200 1334
+INFO 2025-05-08 19:05:33,981 basehttp - Broken pipe from ('127.0.0.1', 50461)
+INFO 2025-05-08 19:05:34,829 basehttp "GET /api/student/course-prediction/1/ HTTP/1.1" 200 342
+INFO 2025-05-08 19:05:35,878 basehttp "GET /api/student/course-prediction/1/ HTTP/1.1" 200 342
+INFO 2025-05-08 19:05:35,878 basehttp "GET /api/student/course-prediction/2/ HTTP/1.1" 200 349
+INFO 2025-05-08 19:05:36,798 basehttp "GET /api/student/course-prediction/3/ HTTP/1.1" 200 353
+INFO 2025-05-08 19:05:36,811 basehttp "GET /api/student/course-prediction/2/ HTTP/1.1" 200 349
+INFO 2025-05-08 19:05:37,777 basehttp "GET /api/student/course-prediction/4/ HTTP/1.1" 200 348
+INFO 2025-05-08 19:05:37,777 basehttp "GET /api/student/course-prediction/3/ HTTP/1.1" 200 353
+INFO 2025-05-08 19:05:38,757 basehttp "GET /api/student/course-prediction/4/ HTTP/1.1" 200 348
+INFO 2025-05-08 19:05:38,757 basehttp "GET /api/student/course-prediction/5/ HTTP/1.1" 200 348
+INFO 2025-05-08 19:05:39,681 basehttp "GET /api/student/course-prediction/6/ HTTP/1.1" 200 348
+INFO 2025-05-08 19:05:39,718 basehttp "GET /api/student/course-prediction/5/ HTTP/1.1" 200 348
+INFO 2025-05-08 19:05:40,634 basehttp "GET /api/student/course-prediction/6/ HTTP/1.1" 200 348
+INFO 2025-05-08 19:06:07,459 basehttp "POST /api/login/ HTTP/1.1" 200 107
+INFO 2025-05-08 19:06:07,560 views Fetching all students with details
+INFO 2025-05-08 19:06:07,562 views Found 12 students
+INFO 2025-05-08 19:06:08,000 views Serialized all students data
+INFO 2025-05-08 19:06:08,008 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 19:06:08,026 views Fetching all students with details
+INFO 2025-05-08 19:06:08,028 views Found 12 students
+INFO 2025-05-08 19:06:08,655 views Serialized all students data
+INFO 2025-05-08 19:06:08,659 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 19:06:09,047 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 19:06:09,047 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 19:06:09,048 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:06:09,160 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 19:06:09,279 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:06:09,570 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:06:10,001 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 19:06:10,022 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:06:10,050 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 19:06:10,144 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 19:06:10,197 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:06:10,505 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:06:10,929 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 19:06:10,976 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:06:10,989 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 19:06:11,105 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 19:06:11,108 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:06:11,452 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:06:11,891 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 19:06:11,900 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 19:06:11,913 views Fetching all students with details
+INFO 2025-05-08 19:06:11,916 views Found 12 students
+INFO 2025-05-08 19:06:11,972 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:06:12,038 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 19:06:12,074 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:06:12,371 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:06:12,374 views Serialized all students data
+INFO 2025-05-08 19:06:12,376 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 19:06:12,392 views Fetching all students with details
+INFO 2025-05-08 19:06:12,395 views Found 12 students
+INFO 2025-05-08 19:06:12,879 views Serialized all students data
+INFO 2025-05-08 19:06:12,883 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 19:06:13,421 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:06:13,422 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 19:06:13,424 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 19:06:13,475 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:06:13,478 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 19:06:13,793 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:06:14,435 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 19:06:14,435 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 19:06:14,435 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 19:06:14,435 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:06:14,519 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:06:14,726 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:06:15,374 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 19:06:15,383 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:06:15,416 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:06:15,448 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 19:06:15,473 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 19:06:15,654 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:06:16,342 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 19:06:16,368 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 19:06:16,422 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:06:16,433 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:06:16,480 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 19:06:16,566 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:06:17,610 views Fetching all students with details
+INFO 2025-05-08 19:06:17,613 views Found 12 students
+INFO 2025-05-08 19:06:18,103 views Serialized all students data
+INFO 2025-05-08 19:06:18,106 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 19:06:18,122 views Fetching all students with details
+INFO 2025-05-08 19:06:18,124 views Found 12 students
+INFO 2025-05-08 19:06:18,628 views Serialized all students data
+INFO 2025-05-08 19:06:18,632 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-08 19:06:19,401 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 19:06:19,406 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:06:19,418 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 19:06:19,422 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:06:19,423 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 19:06:19,708 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:06:20,413 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 19:06:20,413 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 19:06:20,466 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 19:06:20,468 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:06:20,473 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:06:20,700 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:06:21,515 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:06:21,521 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-08 19:06:21,529 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-08 19:06:21,530 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-08 19:06:21,549 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-08 19:06:21,682 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:06:22,504 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-08 19:06:22,504 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:06:22,530 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-08 19:06:22,530 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-08 19:06:22,589 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-08 19:06:22,711 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-11 12:57:32,130 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 12:58:50,771 basehttp "OPTIONS /api/students/all-details/ HTTP/1.1" 200 0
+INFO 2025-05-11 12:58:50,771 basehttp "OPTIONS /api/students/all-details/ HTTP/1.1" 200 0
+INFO 2025-05-11 12:58:51,466 views Fetching all students with details
+INFO 2025-05-11 12:58:51,482 views Found 12 students
+INFO 2025-05-11 12:58:52,015 views Serialized all students data
+INFO 2025-05-11 12:58:52,020 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-11 12:58:52,060 basehttp "OPTIONS /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 0
+INFO 2025-05-11 12:58:52,064 basehttp "OPTIONS /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 0
+INFO 2025-05-11 12:58:52,072 basehttp "OPTIONS /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 0
+INFO 2025-05-11 12:58:52,072 basehttp "OPTIONS /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 0
+INFO 2025-05-11 12:58:52,079 basehttp "OPTIONS /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 0
+INFO 2025-05-11 12:58:52,079 basehttp "OPTIONS /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 0
+INFO 2025-05-11 12:58:52,086 basehttp "OPTIONS /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 0
+INFO 2025-05-11 12:58:52,086 basehttp "OPTIONS /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 0
+INFO 2025-05-11 12:58:52,090 basehttp "OPTIONS /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 0
+INFO 2025-05-11 12:58:52,094 basehttp "OPTIONS /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 0
+INFO 2025-05-11 12:58:52,094 basehttp "OPTIONS /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 0
+INFO 2025-05-11 12:58:52,103 basehttp "OPTIONS /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 0
+INFO 2025-05-11 12:58:52,207 views Fetching all students with details
+INFO 2025-05-11 12:58:52,210 views Found 12 students
+INFO 2025-05-11 12:58:52,801 views Serialized all students data
+INFO 2025-05-11 12:58:52,806 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-11 12:58:56,859 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-11 12:58:57,982 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-11 12:58:59,121 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-11 12:59:01,292 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-11 12:59:05,255 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-11 12:59:05,256 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-11 12:59:05,326 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-11 12:59:05,328 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-11 12:59:05,345 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-11 12:59:05,346 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-11 12:59:06,365 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-11 12:59:06,368 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-11 12:59:06,434 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-11 12:59:06,434 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-11 12:59:06,499 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-11 12:59:06,717 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-11 12:59:07,443 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-11 12:59:07,531 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-11 12:59:07,611 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-11 12:59:07,635 views Fetching all students with details
+INFO 2025-05-11 12:59:07,637 views Found 12 students
+INFO 2025-05-11 12:59:07,794 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-11 12:59:08,160 views Serialized all students data
+INFO 2025-05-11 12:59:08,164 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-11 12:59:08,181 views Fetching all students with details
+INFO 2025-05-11 12:59:08,184 views Found 12 students
+INFO 2025-05-11 12:59:08,480 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-11 12:59:08,673 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-11 12:59:08,706 views Serialized all students data
+INFO 2025-05-11 12:59:08,712 basehttp "GET /api/students/all-details/ HTTP/1.1" 200 30832
+INFO 2025-05-11 12:59:09,698 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-11 12:59:09,714 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-11 12:59:09,929 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-11 12:59:10,049 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-11 12:59:10,190 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-11 12:59:10,193 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-11 12:59:10,991 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-11 12:59:10,991 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-11 12:59:11,135 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-11 12:59:11,308 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-11 12:59:11,308 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-11 12:59:11,993 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-11 12:59:12,239 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-11 12:59:12,424 basehttp "GET /api/teacher/risk-analysis/Alice%20Johnson/ HTTP/1.1" 200 298
+INFO 2025-05-11 12:59:12,425 basehttp "GET /api/teacher/risk-analysis/Emma%20Wilson/ HTTP/1.1" 200 294
+INFO 2025-05-11 12:59:12,773 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-11 12:59:13,299 basehttp "GET /api/teacher/risk-analysis/Grace%20Kim/ HTTP/1.1" 200 293
+INFO 2025-05-11 12:59:13,356 basehttp "GET /api/teacher/risk-analysis/Bob%20Smith/ HTTP/1.1" 200 297
+INFO 2025-05-11 12:59:13,808 basehttp "GET /api/teacher/risk-analysis/Kate%20Brown/ HTTP/1.1" 200 296
+INFO 2025-05-11 12:59:13,816 basehttp "GET /api/teacher/risk-analysis/David%20Brown/ HTTP/1.1" 200 299
+INFO 2025-05-11 12:59:14,244 basehttp "GET /api/teacher/risk-analysis/Ivy%20Chen/ HTTP/1.1" 200 292
+INFO 2025-05-11 12:59:14,248 basehttp "GET /api/teacher/risk-analysis/Frank%20Davis/ HTTP/1.1" 200 296
+INFO 2025-05-11 12:59:14,387 basehttp "GET /api/teacher/risk-analysis/Clara%20Lee/ HTTP/1.1" 200 294
+INFO 2025-05-11 12:59:14,473 basehttp "GET /api/teacher/risk-analysis/Harry%20Patel/ HTTP/1.1" 200 296
+INFO 2025-05-11 12:59:16,720 basehttp "GET /api/teacher/risk-analysis/Jack%20Lee/ HTTP/1.1" 200 295
+INFO 2025-05-11 12:59:16,778 basehttp "GET /api/teacher/risk-analysis/Liam%20Wong/ HTTP/1.1" 200 296
+INFO 2025-05-11 13:05:41,734 autoreload E:\suresh\ML-project\Backend\student_management\attendance\views.py changed, reloading.
+INFO 2025-05-11 13:05:42,652 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 13:06:24,001 autoreload E:\suresh\ML-project\Backend\student_management\attendance\views.py changed, reloading.
+INFO 2025-05-11 13:06:24,723 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 13:06:57,829 autoreload E:\suresh\ML-project\Backend\student_management\attendance\urls.py changed, reloading.
+INFO 2025-05-11 13:06:58,619 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 13:09:20,970 basehttp "OPTIONS /api/teacher/manual-student-data/ HTTP/1.1" 200 0
+INFO 2025-05-11 13:09:21,193 views Processing manual student data entry
+INFO 2025-05-11 13:09:22,998 views Created user: student_s1200
+ERROR 2025-05-11 13:09:23,032 views Error creating student S1200: (1062, "Duplicate entry '14' for key 'attendance_student.PRIMARY'")
+WARNING 2025-05-11 13:09:23,035 log Bad Request: /api/teacher/manual-student-data/
+WARNING 2025-05-11 13:09:23,036 basehttp "POST /api/teacher/manual-student-data/ HTTP/1.1" 400 110
+INFO 2025-05-11 13:11:28,041 autoreload E:\suresh\ML-project\Backend\student_management\attendance\views.py changed, reloading.
+INFO 2025-05-11 13:11:28,955 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 13:11:37,586 views Processing manual student data entry
+ERROR 2025-05-11 13:11:37,594 views Error creating student S1200: (1062, "Duplicate entry '14' for key 'attendance_student.PRIMARY'")
+WARNING 2025-05-11 13:11:37,597 log Bad Request: /api/teacher/manual-student-data/
+WARNING 2025-05-11 13:11:37,598 basehttp "POST /api/teacher/manual-student-data/ HTTP/1.1" 400 110
+INFO 2025-05-11 13:11:49,880 views Processing manual student data entry
+INFO 2025-05-11 13:11:51,782 views Created user: student_s1201
+ERROR 2025-05-11 13:11:51,785 views Error creating student S1201: (1062, "Duplicate entry '15' for key 'attendance_student.PRIMARY'")
+WARNING 2025-05-11 13:11:51,787 log Bad Request: /api/teacher/manual-student-data/
+WARNING 2025-05-11 13:11:51,789 basehttp "POST /api/teacher/manual-student-data/ HTTP/1.1" 400 110
+INFO 2025-05-11 13:17:48,544 autoreload E:\suresh\ML-project\Backend\student_management\attendance\views.py changed, reloading.
+INFO 2025-05-11 13:17:51,276 autoreload Watching for file changes with StatReloader
+INFO 2025-05-11 13:18:03,626 views Processing manual student data entry
+INFO 2025-05-11 13:18:03,630 views Found existing user: student_s1201
+INFO 2025-05-11 13:18:03,633 views User student_s1201 already has a student profile: S014 - student_s1201
+INFO 2025-05-11 13:18:03,655 views Updated student: S1201 - Rai Umer
+INFO 2025-05-11 13:18:03,666 views Retrieved student: S1201 - Rai Umer
+INFO 2025-05-11 13:18:03,908 views Created course: General
+INFO 2025-05-11 13:18:03,909 views Attempting to create attendance for student: 15 - S1201 - Rai Umer
+INFO 2025-05-11 13:18:03,953 views Created attendance for S1201 in General
+INFO 2025-05-11 13:18:03,966 views Created marks (quiz) for S1201 in General
+INFO 2025-05-11 13:18:04,040 views Created marks (assignment) for S1201 in General
+INFO 2025-05-11 13:18:04,041 views Manual data entry completed for S1201
+INFO 2025-05-11 13:18:04,044 basehttp "POST /api/teacher/manual-student-data/ HTTP/1.1" 201 167
+INFO 2025-05-11 13:21:32,664 basehttp "OPTIONS /api/login/ HTTP/1.1" 200 0
+INFO 2025-05-11 13:21:35,149 basehttp "POST /api/login/ HTTP/1.1" 200 113
+INFO 2025-05-11 13:21:35,641 basehttp "OPTIONS /api/my-attendance/ HTTP/1.1" 200 0
+INFO 2025-05-11 13:21:35,643 basehttp "OPTIONS /api/my-marks/ HTTP/1.1" 200 0
+INFO 2025-05-11 13:21:35,643 basehttp "OPTIONS /api/student/courses/ HTTP/1.1" 200 0
+INFO 2025-05-11 13:21:35,646 basehttp "OPTIONS /api/my-attendance/ HTTP/1.1" 200 0
+INFO 2025-05-11 13:21:35,650 basehttp "OPTIONS /api/my-marks/ HTTP/1.1" 200 0
+INFO 2025-05-11 13:21:35,670 basehttp "OPTIONS /api/student/courses/ HTTP/1.1" 200 0
+INFO 2025-05-11 13:21:35,712 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 195
+INFO 2025-05-11 13:21:35,713 basehttp "GET /api/my-marks/ HTTP/1.1" 200 446
+INFO 2025-05-11 13:21:35,776 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 195
+INFO 2025-05-11 13:21:35,796 basehttp "GET /api/my-marks/ HTTP/1.1" 200 446
+INFO 2025-05-11 13:21:35,805 views Fetched 1 courses for student S1201
+INFO 2025-05-11 13:21:35,811 basehttp "GET /api/student/courses/ HTTP/1.1" 200 44
+INFO 2025-05-11 13:21:35,830 basehttp "OPTIONS /api/student/course-prediction/7/ HTTP/1.1" 200 0
+INFO 2025-05-11 13:21:35,896 views Fetched 1 courses for student S1201
+INFO 2025-05-11 13:21:35,902 basehttp "GET /api/student/courses/ HTTP/1.1" 200 44
+INFO 2025-05-11 13:21:37,097 basehttp "GET /api/student/course-prediction/7/ HTTP/1.1" 200 351
+INFO 2025-05-11 13:21:38,278 basehttp "GET /api/student/course-prediction/7/ HTTP/1.1" 200 351
+INFO 2025-05-11 13:21:56,620 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 195
+INFO 2025-05-11 13:21:56,771 basehttp "GET /api/my-attendance/ HTTP/1.1" 200 195
+INFO 2025-05-11 13:22:00,206 basehttp "GET /api/my-marks/ HTTP/1.1" 200 446
+INFO 2025-05-11 13:22:00,253 basehttp "GET /api/my-marks/ HTTP/1.1" 200 446

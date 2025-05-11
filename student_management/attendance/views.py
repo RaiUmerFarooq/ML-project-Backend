@@ -11,7 +11,7 @@ from rest_framework.permissions import AllowAny
 from django.contrib.auth import get_user_model
 import csv
 from io import StringIO
-from datetime import datetime
+from datetime import datetime, date
 from django.db import IntegrityError
 from django.http import HttpResponse
 
@@ -304,6 +304,7 @@ class StudentCSVUploadView(APIView):
                             date=date,
                             defaults={
                                 'is_present': is_present,
+                                'checkin_time': check_in_time
                             }
                         )
                         if attendance_created:
@@ -311,6 +312,7 @@ class StudentCSVUploadView(APIView):
                             logger.info(f"Created attendance for {roll_number} in {subject_name}")
                         else:
                             attendance.is_present = is_present
+                            attendance.checkin_time = check_in_time
                             attendance.save()
                             updated_attendance.append(f"{roll_number} - {subject_name}")
                             logger.info(f"Updated attendance for {roll_number} in {subject_name}")
@@ -379,17 +381,14 @@ class StudentOwnDataCSVExportView(APIView):
     def get(self, request):
         try:
             logger.info(f"Generating CSV export for user: {request.user.username}")
-            # Fetch the student profile for the authenticated user
             student = Student.objects.get(user=request.user)
             if request.user.role != 'student':
                 logger.warning(f"User {request.user.username} is not a student (role: {request.user.role})")
                 return Response({"error": "Only students can access this endpoint"}, status=status.HTTP_403_FORBIDDEN)
 
-            # Create CSV response
             response = HttpResponse(content_type='text/csv')
             response['Content-Disposition'] = f'attachment; filename="{student.roll_number}_data.csv"'
 
-            # Define CSV writer and headers
             writer = csv.writer(response)
             writer.writerow([
                 'username', 'first_name', 'last_name', 'roll_number', 'name',
@@ -397,18 +396,15 @@ class StudentOwnDataCSVExportView(APIView):
                 'marks_course', 'assessment_type', 'assessment_number', 'marks', 'max_marks', 'marks_date'
             ])
 
-            # Fetch attendance and marks
             attendance_records = Attendance.objects.filter(student=student).select_related('subject')
             marks_records = Marks.objects.filter(student=student).select_related('course')
 
-            # Calculate overall attendance percentage
             total_attendance = attendance_records.count()
             present_count = attendance_records.filter(is_present=True).count()
             attendance_percentage = round((present_count / total_attendance) * 100, 2) if total_attendance > 0 else 0.0
 
             logger.info(f"Fetched {len(attendance_records)} attendance records and {len(marks_records)} marks records for {student.roll_number}")
 
-            # If no attendance or marks, include student info only
             if not attendance_records and not marks_records:
                 writer.writerow([
                     student.user.username,
@@ -420,7 +416,6 @@ class StudentOwnDataCSVExportView(APIView):
                     '', '', '', '', ''
                 ])
             else:
-                # Handle attendance and marks pairing
                 max_records = max(len(attendance_records), len(marks_records))
                 for i in range(max_records):
                     row = [
@@ -430,7 +425,6 @@ class StudentOwnDataCSVExportView(APIView):
                         student.roll_number,
                         student.name
                     ]
-                    # Attendance data
                     if i < len(attendance_records):
                         att = attendance_records[i]
                         checkin_time = att.checkin_time.strftime('%H:%M:%S') if att.checkin_time else ''
@@ -443,7 +437,6 @@ class StudentOwnDataCSVExportView(APIView):
                         ])
                     else:
                         row.extend(['', '', '', '', attendance_percentage])
-                    # Marks data
                     if i < len(marks_records):
                         mark = marks_records[i]
                         row.extend([
@@ -469,20 +462,18 @@ class StudentOwnDataCSVExportView(APIView):
 
 class TeacherStudentDataCSVExportView(APIView):
     permission_classes = [IsTeacher]
-    # authentication_classes = [TokenAuthentication]
+    authentication_classes = [TokenAuthentication]
 
     def get(self, request, roll_number=None):
         try:
             logger.info(f"Generating CSV export for teacher: {request.user.username}, roll_number: {roll_number}")
             
-            # Create CSV response
             response = HttpResponse(content_type='text/csv')
             if roll_number:
                 response['Content-Disposition'] = f'attachment; filename="{roll_number}_data.csv"'
             else:
                 response['Content-Disposition'] = 'attachment; filename="all_students_data.csv"'
 
-            # Define CSV writer and headers
             writer = csv.writer(response)
             writer.writerow([
                 'username', 'first_name', 'last_name', 'roll_number', 'name',
@@ -490,7 +481,6 @@ class TeacherStudentDataCSVExportView(APIView):
                 'marks_course', 'assessment_type', 'assessment_number', 'marks', 'max_marks', 'marks_date'
             ])
 
-            # Determine students to export
             if roll_number:
                 try:
                     student = Student.objects.get(roll_number=roll_number)
@@ -504,18 +494,15 @@ class TeacherStudentDataCSVExportView(APIView):
             logger.info(f"Exporting data for {len(students)} student(s)")
 
             for student in students:
-                # Fetch attendance and marks
                 attendance_records = Attendance.objects.filter(student=student).select_related('subject')
                 marks_records = Marks.objects.filter(student=student).select_related('course')
 
-                # Calculate overall attendance percentage
                 total_attendance = attendance_records.count()
                 present_count = attendance_records.filter(is_present=True).count()
                 attendance_percentage = round((present_count / total_attendance) * 100, 2) if total_attendance > 0 else 0.0
 
                 logger.info(f"Fetched {len(attendance_records)} attendance records and {len(marks_records)} marks records for {student.roll_number}")
 
-                # If no attendance or marks, include student info only
                 if not attendance_records and not marks_records:
                     writer.writerow([
                         student.user.username,
@@ -527,7 +514,6 @@ class TeacherStudentDataCSVExportView(APIView):
                         '', '', '', '', ''
                     ])
                 else:
-                    # Handle attendance and marks pairing
                     max_records = max(len(attendance_records), len(marks_records))
                     for i in range(max_records):
                         row = [
@@ -537,7 +523,6 @@ class TeacherStudentDataCSVExportView(APIView):
                             student.roll_number,
                             student.name
                         ]
-                        # Attendance data
                         if i < len(attendance_records):
                             att = attendance_records[i]
                             checkin_time = att.checkin_time.strftime('%H:%M:%S') if att.checkin_time else ''
@@ -550,7 +535,6 @@ class TeacherStudentDataCSVExportView(APIView):
                             ])
                         else:
                             row.extend(['', '', '', '', attendance_percentage])
-                        # Marks data
                         if i < len(marks_records):
                             mark = marks_records[i]
                             row.extend([
@@ -569,4 +553,205 @@ class TeacherStudentDataCSVExportView(APIView):
             return response
         except Exception as e:
             logger.error(f"Error in TeacherStudentDataCSVExportView: {str(e)}", exc_info=True)
+            return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+class ManualStudentDataEntryView(APIView):
+    permission_classes = [IsTeacher]
+    authentication_classes = [TokenAuthentication]
+
+    def post(self, request):
+        try:
+            logger.info("Processing manual student data entry")
+            
+            # Extract data from request
+            data = request.data
+            roll_number = data.get('roll_number')
+            name = data.get('name')
+            marks = data.get('marks')
+            attendance_percentage = data.get('attendance_percentage')
+            assignment_submission = data.get('assignment_submission')
+
+            # Validate required fields
+            required_fields = ['roll_number', 'name', 'marks', 'attendance_percentage', 'assignment_submission']
+            missing_fields = [field for field in required_fields if not data.get(field)]
+            if missing_fields:
+                logger.error(f"Missing required fields: {missing_fields}")
+                return Response({"error": f"Missing required fields: {', '.join(missing_fields)}"}, status=status.HTTP_400_BAD_REQUEST)
+
+            # Validate numeric fields
+            try:
+                marks = float(marks)
+                if marks < 0 or marks > 100:
+                    raise ValueError("Marks must be between 0 and 100")
+            except (ValueError, TypeError) as e:
+                logger.error(f"Invalid marks: {marks}")
+                return Response({"error": "Marks must be a number between 0 and 100"}, status=status.HTTP_400_BAD_REQUEST)
+
+            try:
+                attendance_percentage = float(attendance_percentage)
+                if not 0 <= attendance_percentage <= 100:
+                    raise ValueError("Attendance percentage must be between 0 and 100")
+            except (ValueError, TypeError) as e:
+                logger.error(f"Invalid attendance_percentage: {attendance_percentage}")
+                return Response({"error": "Attendance percentage must be a number between 0 and 100"}, status=status.HTTP_400_BAD_REQUEST)
+
+            try:
+                assignment_submission = float(assignment_submission)
+                if not 0 <= assignment_submission <= 100:
+                    raise ValueError("Assignment submission rate must be between 0 and 100")
+            except (ValueError, TypeError) as e:
+                logger.error(f"Invalid assignment_submission: {assignment_submission}")
+                return Response({"error": "Assignment submission rate must be a number between 0 and 100"}, status=status.HTTP_400_BAD_REQUEST)
+
+            # Clean name and roll_number
+            roll_number = roll_number.strip()
+            name = name.strip()
+            if not roll_number or not name:
+                logger.error("Roll number and name cannot be empty")
+                return Response({"error": "Roll number and name cannot be empty"}, status=status.HTTP_400_BAD_REQUEST)
+
+            # Generate a unique username for the new user
+            username = f"student_{roll_number.lower()}"
+            try:
+                user = User.objects.get(username=username)
+                logger.info(f"Found existing user: {username}")
+                # Check if the user already has a student profile
+                try:
+                    student = Student.objects.get(user=user)
+                    logger.info(f"User {username} already has a student profile: {student.roll_number} - {student.name}")
+                    # Update existing student if roll_number or name differs
+                    if student.roll_number != roll_number or student.name != name:
+                        student.roll_number = roll_number
+                        student.name = name
+                        student.save()
+                        logger.info(f"Updated student: {roll_number} - {name}")
+                except Student.DoesNotExist:
+                    logger.error(f"User {username} exists but has no student profile")
+                    return Response({"error": f"User {username} exists but has no student profile"}, status=status.HTTP_400_BAD_REQUEST)
+            except User.DoesNotExist:
+                # Create a new user
+                try:
+                    user = User.objects.create(
+                        username=username,
+                        first_name=name.split()[0],
+                        last_name=' '.join(name.split()[1:]) if len(name.split()) > 1 else '',
+                        role='student'
+                    )
+                    user.set_password('password123')  # Default password
+                    user.save()
+                    logger.info(f"Created user: {username}")
+                    # The create_student_profile signal will create the Student record
+                except IntegrityError as e:
+                    logger.error(f"Error creating user {username}: {str(e)}")
+                    return Response({"error": f"Cannot create user {username}: {str(e)}"}, status=status.HTTP_400_BAD_REQUEST)
+
+            # Retrieve or wait for the Student to be created by the signal
+            try:
+                student = Student.objects.get(user=user)
+                logger.info(f"Retrieved student: {student.roll_number} - {student.name}")
+            except Student.DoesNotExist:
+                logger.error(f"Student profile not created for user {username}")
+                return Response({"error": f"Student profile not created for user {username}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+            # Create or get a default course
+            course_name = "General"
+            try:
+                course, created = Course.objects.get_or_create(
+                    name=course_name,
+                    defaults={'code': course_name[:10].upper()}
+                )
+                if created:
+                    logger.info(f"Created course: {course_name}")
+            except IntegrityError as e:
+                logger.error(f"Error creating course {course_name}: {str(e)}")
+                return Response({"error": f"Cannot create course {course_name}: {str(e)}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+            # Save attendance
+            is_present = attendance_percentage >= 75
+            try:
+                logger.info(f"Attempting to create attendance for student: {student.user_id} - {student.roll_number} - {student.name}")
+                attendance, created = Attendance.objects.get_or_create(
+                    student=student,
+                    subject=course,
+                    date=date.today(),
+                    defaults={
+                        'is_present': is_present,
+                        'checkin_time': datetime.now().time()  # Use current time
+                    }
+                )
+                if not created:
+                    attendance.is_present = is_present
+                    attendance.checkin_time = datetime.now().time()
+                    attendance.save()
+                    logger.info(f"Updated attendance for {roll_number} in {course_name}")
+                else:
+                    logger.info(f"Created attendance for {roll_number} in {course_name}")
+            except IntegrityError as e:
+                logger.error(f"Error saving attendance for {roll_number}: {str(e)}")
+                return Response({"error": f"Cannot save attendance for {roll_number}: {str(e)}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+            # Save marks (quiz)
+            try:
+                marks_record, created = Marks.objects.get_or_create(
+                    student=student,
+                    course=course,
+                    assessment_type='quiz',
+                    assessment_number=1,
+                    date=date.today(),
+                    defaults={
+                        'marks': marks,
+                        'max_marks': 100  # Assuming max marks is 100
+                    }
+                )
+                if not created:
+                    marks_record.marks = marks
+                    marks_record.max_marks = 100
+                    marks_record.save()
+                    logger.info(f"Updated marks (quiz) for {roll_number} in {course_name}")
+                else:
+                    logger.info(f"Created marks (quiz) for {roll_number} in {course_name}")
+            except IntegrityError as e:
+                logger.error(f"Error saving marks (quiz) for {roll_number}: {str(e)}")
+                return Response({"error": f"Cannot save marks for {roll_number}: {str(e)}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+            # Save assignment submission as a separate marks entry
+            try:
+                assignment_record, created = Marks.objects.get_or_create(
+                    student=student,
+                    course=course,
+                    assessment_type='assignment',
+                    assessment_number=1,
+                    date=date.today(),
+                    defaults={
+                        'marks': assignment_submission,
+                        'max_marks': 100  # Assuming max marks is 100
+                    }
+                )
+                if not created:
+                    assignment_record.marks = assignment_submission
+                    assignment_record.max_marks = 100
+                    assignment_record.save()
+                    logger.info(f"Updated marks (assignment) for {roll_number} in {course_name}")
+                else:
+                    logger.info(f"Created marks (assignment) for {roll_number} in {course_name}")
+            except IntegrityError as e:
+                logger.error(f"Error saving assignment submission for {roll_number}: {str(e)}")
+                return Response({"error": f"Cannot save assignment submission for {roll_number}: {str(e)}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+            # Prepare response
+            response_data = {
+                "message": "Student data saved successfully",
+                "student": {
+                    "roll_number": roll_number,
+                    "name": name,
+                    "marks": marks,
+                    "attendance_percentage": attendance_percentage,
+                    "assignment_submission": assignment_submission
+                }
+            }
+            logger.info(f"Manual data entry completed for {roll_number}")
+            return Response(response_data, status=status.HTTP_201_CREATED)
+
+        except Exception as e:
+            logger.error(f"Error in ManualStudentDataEntryView: {str(e)}", exc_info=True)
             return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
